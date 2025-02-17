@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae92981372b97fe00d600ceccd11d05e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae92981372b97fe00d600ceccd11d05e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae92981372b97fe00d600ceccd11d05e = L.map(
+                "map_ae92981372b97fe00d600ceccd11d05e",
+                {
+                    center: [36.19014715256411, -95.99716621282053],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_39de966afa6c6b8aa4769987d9a35a74 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_39de966afa6c6b8aa4769987d9a35a74.addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+            var marker_bc2fb3110c29e5667963141be87f3815 = L.marker(
+                [36.1903832, -95.9985616],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_52bb67a96f386f1e55cef15c3cfa60a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_549dc03929b0798c616b701c65ed9324 = $(`<div id="html_549dc03929b0798c616b701c65ed9324" style="width: 100.0%; height: 100.0%;">211 W ZION ST, TULSA, OK 74106-3655 BENJAMIN BORENS (DEM)</div>`)[0];
+                popup_52bb67a96f386f1e55cef15c3cfa60a6.setContent(html_549dc03929b0798c616b701c65ed9324);
+            
+        
+
+        marker_bc2fb3110c29e5667963141be87f3815.bindPopup(popup_52bb67a96f386f1e55cef15c3cfa60a6)
+        ;
+
+        
+    
+    
+            var marker_dd36317d8490de5f393c4988ea582717 = L.marker(
+                [36.1906429, -95.9971842],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_1d62c408fa281ddd0fc46e877af32484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55b7256f307be1007db4d13ff66f9573 = $(`<div id="html_55b7256f307be1007db4d13ff66f9573" style="width: 100.0%; height: 100.0%;">2516 N MAIN ST, TULSA, OK 74106-3641 KAREN BUTLER (DEM)</div>`)[0];
+                popup_1d62c408fa281ddd0fc46e877af32484.setContent(html_55b7256f307be1007db4d13ff66f9573);
+            
+        
+
+        marker_dd36317d8490de5f393c4988ea582717.bindPopup(popup_1d62c408fa281ddd0fc46e877af32484)
+        ;
+
+        
+    
+    
+            var marker_c151b1204f0b4cc8b6a2e3083d043e22 = L.marker(
+                [36.1899617, -95.9960621],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_2c1460a0515e9ad24d028868e0ae9d34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4394033ddc02938b2494cd8fd0813e05 = $(`<div id="html_4394033ddc02938b2494cd8fd0813e05" style="width: 100.0%; height: 100.0%;">2508 N BOSTON AVE, TULSA, OK 74106 BEVERLY DURHAM (DEM)</div>`)[0];
+                popup_2c1460a0515e9ad24d028868e0ae9d34.setContent(html_4394033ddc02938b2494cd8fd0813e05);
+            
+        
+
+        marker_c151b1204f0b4cc8b6a2e3083d043e22.bindPopup(popup_2c1460a0515e9ad24d028868e0ae9d34)
+        ;
+
+        
+    
+    
+            var marker_9505b34ae2148f4ea55fbcc794da59ef = L.marker(
+                [36.1907351, -95.9966333],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_eba3cf52ad18df34d4bcd58139b5f4bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20e938c943b4ceca91c725be3d8f8d8e = $(`<div id="html_20e938c943b4ceca91c725be3d8f8d8e" style="width: 100.0%; height: 100.0%;">2521 N MAIN ST, TULSA, OK 74106-3640 JENNIFER GOINS (DEM)</div>`)[0];
+                popup_eba3cf52ad18df34d4bcd58139b5f4bd.setContent(html_20e938c943b4ceca91c725be3d8f8d8e);
+            
+        
+
+        marker_9505b34ae2148f4ea55fbcc794da59ef.bindPopup(popup_eba3cf52ad18df34d4bcd58139b5f4bd)
+        ;
+
+        
+    
+    
+            var marker_9e423aec114374c24bf3b4fd61a07274 = L.marker(
+                [36.1902029, -95.9965403],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_fb452d65729b53128ad8f373653d14ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360d5a0b9bba3ab50159b5a0beab93e2 = $(`<div id="html_360d5a0b9bba3ab50159b5a0beab93e2" style="width: 100.0%; height: 100.0%;">2503 N MAIN ST, TULSA, OK 74106-3640 LEAH HAYES (DEM)</div>`)[0];
+                popup_fb452d65729b53128ad8f373653d14ed.setContent(html_360d5a0b9bba3ab50159b5a0beab93e2);
+            
+        
+
+        marker_9e423aec114374c24bf3b4fd61a07274.bindPopup(popup_fb452d65729b53128ad8f373653d14ed)
+        ;
+
+        
+    
+    
+            var marker_9dbdc9b9abd5b98539441a7762b875c6 = L.marker(
+                [36.1903181, -95.9974572],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_88fdb55cfa84b679b51e11c5b25a87bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa383d0f0a928f09df09fd0de13f7c15 = $(`<div id="html_aa383d0f0a928f09df09fd0de13f7c15" style="width: 100.0%; height: 100.0%;">15 W ZION ST, TULSA, OK 74106-3654 CECIL JACKSON (DEM)</div>`)[0];
+                popup_88fdb55cfa84b679b51e11c5b25a87bf.setContent(html_aa383d0f0a928f09df09fd0de13f7c15);
+            
+        
+
+        marker_9dbdc9b9abd5b98539441a7762b875c6.bindPopup(popup_88fdb55cfa84b679b51e11c5b25a87bf)
+        ;
+
+        
+    
+    
+            var marker_2ddc3a444992b2ebf696a1c432397414 = L.marker(
+                [36.1908636, -95.998655],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_f39549b88d0932ae594e63b9235f0e9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_283e7b7b3d9470f184e8ebd61074f4be = $(`<div id="html_283e7b7b3d9470f184e8ebd61074f4be" style="width: 100.0%; height: 100.0%;">2522 N CHEYENNE AVE, TULSA, OK 74106-3625 CHERYL JOHNSON (DEM)</div>`)[0];
+                popup_f39549b88d0932ae594e63b9235f0e9b.setContent(html_283e7b7b3d9470f184e8ebd61074f4be);
+            
+        
+
+        marker_2ddc3a444992b2ebf696a1c432397414.bindPopup(popup_f39549b88d0932ae594e63b9235f0e9b)
+        ;
+
+        
+    
+    
+            var marker_a267e8d1f7e41df78c92f6b7528ec412 = L.marker(
+                [36.1903985, -95.9976972],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_5c291e704087a0bae7cc50cff99d430e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e59190bd86af417a53d88738850ce4e = $(`<div id="html_6e59190bd86af417a53d88738850ce4e" style="width: 100.0%; height: 100.0%;">2505 N CHEYENNE AVE, TULSA, OK 74106-3624 VICKI WILLIAMS (DEM)</div>`)[0];
+                popup_5c291e704087a0bae7cc50cff99d430e.setContent(html_6e59190bd86af417a53d88738850ce4e);
+            
+        
+
+        marker_a267e8d1f7e41df78c92f6b7528ec412.bindPopup(popup_5c291e704087a0bae7cc50cff99d430e)
+        ;
+
+        
+    
+    
+            var marker_1830680348356a5c43ea296d9ff3997e = L.marker(
+                [36.1890627, -95.996552],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_71af96cf0d5d70e91b409806e6a74349 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24c20b91c009fe7d5791c83ab96b7e83 = $(`<div id="html_24c20b91c009fe7d5791c83ab96b7e83" style="width: 100.0%; height: 100.0%;">2429 N MAIN ST, TULSA, OK 74106-3638 HELEN JONES (DEM)</div>`)[0];
+                popup_71af96cf0d5d70e91b409806e6a74349.setContent(html_24c20b91c009fe7d5791c83ab96b7e83);
+            
+        
+
+        marker_1830680348356a5c43ea296d9ff3997e.bindPopup(popup_71af96cf0d5d70e91b409806e6a74349)
+        ;
+
+        
+    
+    
+            var marker_f02111429c184697f08950c0eb91d4f0 = L.marker(
+                [36.1896174, -95.9975515],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_bf9556f15b94c438c345ba73f9ff7606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f6b772937b3fd882e6fd18d749be4f = $(`<div id="html_84f6b772937b3fd882e6fd18d749be4f" style="width: 100.0%; height: 100.0%;">2451 N CHEYENNE AVE, TULSA, OK 74106-3622 VALIN MARSHALL (DEM)</div>`)[0];
+                popup_bf9556f15b94c438c345ba73f9ff7606.setContent(html_84f6b772937b3fd882e6fd18d749be4f);
+            
+        
+
+        marker_f02111429c184697f08950c0eb91d4f0.bindPopup(popup_bf9556f15b94c438c345ba73f9ff7606)
+        ;
+
+        
+    
+    
+            var marker_47507c9cdd14ca2089c802136aa9f655 = L.marker(
+                [36.1887166, -95.99610520000002],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_6ae017b477e97a3955ddc980f298c2ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c94305833a6b3eb1c122592cc375b9bf = $(`<div id="html_c94305833a6b3eb1c122592cc375b9bf" style="width: 100.0%; height: 100.0%;">2440 N BOSTON AVE, TULSA, OK 74106 ARLENE MIXON (DEM)</div>`)[0];
+                popup_6ae017b477e97a3955ddc980f298c2ce.setContent(html_c94305833a6b3eb1c122592cc375b9bf);
+            
+        
+
+        marker_47507c9cdd14ca2089c802136aa9f655.bindPopup(popup_6ae017b477e97a3955ddc980f298c2ce)
+        ;
+
+        
+    
+    
+            var marker_50ff54448fe2b874ef2999c5dda9f2b3 = L.marker(
+                [36.1887166, -95.99610520000002],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_01c6652c21d7e988942fe43ec80fbb10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_767d847dce1f412694d1eb82bebf60d0 = $(`<div id="html_767d847dce1f412694d1eb82bebf60d0" style="width: 100.0%; height: 100.0%;">2440 N BOSTON AVE, TULSA, OK 74106 HULIN MIXON (REP)</div>`)[0];
+                popup_01c6652c21d7e988942fe43ec80fbb10.setContent(html_767d847dce1f412694d1eb82bebf60d0);
+            
+        
+
+        marker_50ff54448fe2b874ef2999c5dda9f2b3.bindPopup(popup_01c6652c21d7e988942fe43ec80fbb10)
+        ;
+
+        
+    
+    
+            var marker_61ab915dc6c8c7125608295e87658e50 = L.marker(
+                [36.1883129, -95.9960906],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_de4f5568374b3ccbe3e76211a9234f71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d84eda847804fda148fa2c897620597c = $(`<div id="html_d84eda847804fda148fa2c897620597c" style="width: 100.0%; height: 100.0%;">2428 N BOSTON AVE, TULSA, OK 74106 SANDRA PETERS (DEM)</div>`)[0];
+                popup_de4f5568374b3ccbe3e76211a9234f71.setContent(html_d84eda847804fda148fa2c897620597c);
+            
+        
+
+        marker_61ab915dc6c8c7125608295e87658e50.bindPopup(popup_de4f5568374b3ccbe3e76211a9234f71)
+        ;
+
+        
+    
+    
+            var marker_3fc90974e87d817c53ddb22a26c1ea52 = L.marker(
+                [36.1908037, -95.9972014],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_82169b5f6ba5f51a03316cf5b2013230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b0e5b6e265eb98465af3d553f2f917 = $(`<div id="html_86b0e5b6e265eb98465af3d553f2f917" style="width: 100.0%; height: 100.0%;">2520 N MAIN ST, TULSA, OK 74106-3641 CHERYL SAUNDERS (DEM)</div>`)[0];
+                popup_82169b5f6ba5f51a03316cf5b2013230.setContent(html_86b0e5b6e265eb98465af3d553f2f917);
+            
+        
+
+        marker_3fc90974e87d817c53ddb22a26c1ea52.bindPopup(popup_82169b5f6ba5f51a03316cf5b2013230)
+        ;
+
+        
+    
+    
+            var marker_e0a53deb66c93f1cb1b86f7f0b3eb136 = L.marker(
+                [36.1887599, -95.9966642],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_56634e6f51da8314927bd859e90490ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a3a6055a0754611d7f4f0d9c4db6a5f = $(`<div id="html_1a3a6055a0754611d7f4f0d9c4db6a5f" style="width: 100.0%; height: 100.0%;">2421 N MAIN ST, TULSA, OK 74106 ETHEL WAUGH (DEM)</div>`)[0];
+                popup_56634e6f51da8314927bd859e90490ec.setContent(html_1a3a6055a0754611d7f4f0d9c4db6a5f);
+            
+        
+
+        marker_e0a53deb66c93f1cb1b86f7f0b3eb136.bindPopup(popup_56634e6f51da8314927bd859e90490ec)
+        ;
+
+        
+    
+    
+            var marker_c17c44d9beb4f220617031d07776aea2 = L.marker(
+                [36.1912869, -95.9966534],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_43e70f8989f1ae7b6f5aace6a7794e02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23a477bffd802866ff0e2d6f5c5bae1f = $(`<div id="html_23a477bffd802866ff0e2d6f5c5bae1f" style="width: 100.0%; height: 100.0%;">2535 N MAIN ST, TULSA, OK 74106-3640 DOROTHY WILLIAMS (DEM)</div>`)[0];
+                popup_43e70f8989f1ae7b6f5aace6a7794e02.setContent(html_23a477bffd802866ff0e2d6f5c5bae1f);
+            
+        
+
+        marker_c17c44d9beb4f220617031d07776aea2.bindPopup(popup_43e70f8989f1ae7b6f5aace6a7794e02)
+        ;
+
+        
+    
+    
+            var marker_a393dcc6ab18b3bbd76d006036e3b71e = L.marker(
+                [36.1888709, -95.9981087],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_9dc81375aad54bb63ee2ff885c61c084 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59eb783334afcd3e9ac4e99355c07e67 = $(`<div id="html_59eb783334afcd3e9ac4e99355c07e67" style="width: 100.0%; height: 100.0%;">2434 N CHEYENNE AVE, TULSA, OK 74106-3623 DESHELLY PRINCE (DEM)</div>`)[0];
+                popup_9dc81375aad54bb63ee2ff885c61c084.setContent(html_59eb783334afcd3e9ac4e99355c07e67);
+            
+        
+
+        marker_a393dcc6ab18b3bbd76d006036e3b71e.bindPopup(popup_9dc81375aad54bb63ee2ff885c61c084)
+        ;
+
+        
+    
+    
+            var marker_839e76e45d05d391915740b0f03f6682 = L.marker(
+                [36.1903832, -95.9985616],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_c62f9e3f355f9fc7378ad587256cbfde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f178ef390e989ebbfeec44ccf4e315de = $(`<div id="html_f178ef390e989ebbfeec44ccf4e315de" style="width: 100.0%; height: 100.0%;">211 W ZION ST, TULSA, OK 74106-3655 YOLANDA BORENS (DEM)</div>`)[0];
+                popup_c62f9e3f355f9fc7378ad587256cbfde.setContent(html_f178ef390e989ebbfeec44ccf4e315de);
+            
+        
+
+        marker_839e76e45d05d391915740b0f03f6682.bindPopup(popup_c62f9e3f355f9fc7378ad587256cbfde)
+        ;
+
+        
+    
+    
+            var marker_62a0aa4afd5f1e0f7ec0262403cc4bbb = L.marker(
+                [36.1903832, -95.9985616],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_c0ef4a1246ff9d52ac2af66aa99bb393 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6763e32ba5d78257aeed3d6adaed6ae0 = $(`<div id="html_6763e32ba5d78257aeed3d6adaed6ae0" style="width: 100.0%; height: 100.0%;">211 W ZION ST, TULSA, OK 74106-3655 THERMAPLE BORENS (DEM)</div>`)[0];
+                popup_c0ef4a1246ff9d52ac2af66aa99bb393.setContent(html_6763e32ba5d78257aeed3d6adaed6ae0);
+            
+        
+
+        marker_62a0aa4afd5f1e0f7ec0262403cc4bbb.bindPopup(popup_c0ef4a1246ff9d52ac2af66aa99bb393)
+        ;
+
+        
+    
+    
+            var marker_b3bffce816e665f2211591d08f70a126 = L.marker(
+                [36.1911867, -95.9989786],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_50d9ad695d776554498a78e66db20fa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_335b003c34917b020c40e8a36513dd8b = $(`<div id="html_335b003c34917b020c40e8a36513dd8b" style="width: 100.0%; height: 100.0%;">210 W APACHE ST, TULSA, OK 74106-3605 MIYA JOHNSON (DEM)</div>`)[0];
+                popup_50d9ad695d776554498a78e66db20fa7.setContent(html_335b003c34917b020c40e8a36513dd8b);
+            
+        
+
+        marker_b3bffce816e665f2211591d08f70a126.bindPopup(popup_50d9ad695d776554498a78e66db20fa7)
+        ;
+
+        
+    
+    
+            var marker_6c56f3ced3aedc3058fbd1b37759d8f5 = L.marker(
+                [36.1911553, -95.9960858],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_8f9d46b456495630e710c0577d2094bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20c6034df98a6a2168373dbca0fe3e33 = $(`<div id="html_20c6034df98a6a2168373dbca0fe3e33" style="width: 100.0%; height: 100.0%;">2544 N BOSTON AVE, TULSA, OK 74106 DAWN FELLOWS (DEM)</div>`)[0];
+                popup_8f9d46b456495630e710c0577d2094bb.setContent(html_20c6034df98a6a2168373dbca0fe3e33);
+            
+        
+
+        marker_6c56f3ced3aedc3058fbd1b37759d8f5.bindPopup(popup_8f9d46b456495630e710c0577d2094bb)
+        ;
+
+        
+    
+    
+            var marker_f005b2adcce247863820bb7e32d9a221 = L.marker(
+                [36.1887599, -95.9966642],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_9898fe4578091ebc2b6adee22a5df37a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f47226e0ea55e1ab606e36e513a20b = $(`<div id="html_49f47226e0ea55e1ab606e36e513a20b" style="width: 100.0%; height: 100.0%;">2421 N MAIN ST, TULSA, OK 74106-3638 LISA WOLFE (DEM)</div>`)[0];
+                popup_9898fe4578091ebc2b6adee22a5df37a.setContent(html_49f47226e0ea55e1ab606e36e513a20b);
+            
+        
+
+        marker_f005b2adcce247863820bb7e32d9a221.bindPopup(popup_9898fe4578091ebc2b6adee22a5df37a)
+        ;
+
+        
+    
+    
+            var marker_3ab729a8a8833b78921343039edc4a64 = L.marker(
+                [36.1912172, -95.9992421],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_473739ac6a78da3cf5557312e808273c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db8c4e63b4807d18bc75a0f72bd79720 = $(`<div id="html_db8c4e63b4807d18bc75a0f72bd79720" style="width: 100.0%; height: 100.0%;">214 W APACHE ST, TULSA, OK 74106-3605 TOMMY HALL (DEM)</div>`)[0];
+                popup_473739ac6a78da3cf5557312e808273c.setContent(html_db8c4e63b4807d18bc75a0f72bd79720);
+            
+        
+
+        marker_3ab729a8a8833b78921343039edc4a64.bindPopup(popup_473739ac6a78da3cf5557312e808273c)
+        ;
+
+        
+    
+    
+            var marker_ffeb7b28c3bd1de378249a753f5c5a0d = L.marker(
+                [36.189974, -95.9980254],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_67693efc378403088b48f592d86b0d61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f157cca03cb00960183697e8bdc463b6 = $(`<div id="html_f157cca03cb00960183697e8bdc463b6" style="width: 100.0%; height: 100.0%;">2462 N CHEYENNE AVE, TULSA, OK 74106-3623 SHARON SCOTT (REP)</div>`)[0];
+                popup_67693efc378403088b48f592d86b0d61.setContent(html_f157cca03cb00960183697e8bdc463b6);
+            
+        
+
+        marker_ffeb7b28c3bd1de378249a753f5c5a0d.bindPopup(popup_67693efc378403088b48f592d86b0d61)
+        ;
+
+        
+    
+    
+            var marker_c54a82a0a36069790182bcea6bd07204 = L.marker(
+                [36.189974, -95.9980254],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_b961c229824dcbf4307944484f4fc959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024e3363e6086e5e3a9cb50a56a19987 = $(`<div id="html_024e3363e6086e5e3a9cb50a56a19987" style="width: 100.0%; height: 100.0%;">2462 N CHEYENNE AVE, TULSA, OK 74106-3623 PERRY SCOTT (REP)</div>`)[0];
+                popup_b961c229824dcbf4307944484f4fc959.setContent(html_024e3363e6086e5e3a9cb50a56a19987);
+            
+        
+
+        marker_c54a82a0a36069790182bcea6bd07204.bindPopup(popup_b961c229824dcbf4307944484f4fc959)
+        ;
+
+        
+    
+    
+            var marker_91dab5d50a9760e4786d9d54bb0e7b8e = L.marker(
+                [36.1903282, -95.9960513],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_c77ef2c7dbacb21e9ff47535f87a07f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e1e560ec0c102d19827316af144530 = $(`<div id="html_35e1e560ec0c102d19827316af144530" style="width: 100.0%; height: 100.0%;">2520 N BOSTON AVE, TULSA, OK 74106 DANIEL PALMER (DEM)</div>`)[0];
+                popup_c77ef2c7dbacb21e9ff47535f87a07f8.setContent(html_35e1e560ec0c102d19827316af144530);
+            
+        
+
+        marker_91dab5d50a9760e4786d9d54bb0e7b8e.bindPopup(popup_c77ef2c7dbacb21e9ff47535f87a07f8)
+        ;
+
+        
+    
+    
+            var marker_8c0ae781584c192952439ca277bf594d = L.marker(
+                [36.1903282, -95.9960513],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_90cb3751036867420e10ca7c10592719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bd84141e758cbae1810c5c7317e5210 = $(`<div id="html_0bd84141e758cbae1810c5c7317e5210" style="width: 100.0%; height: 100.0%;">2520 N BOSTON AVE, TULSA, OK 74106 ZEZE SCOTT (DEM)</div>`)[0];
+                popup_90cb3751036867420e10ca7c10592719.setContent(html_0bd84141e758cbae1810c5c7317e5210);
+            
+        
+
+        marker_8c0ae781584c192952439ca277bf594d.bindPopup(popup_90cb3751036867420e10ca7c10592719)
+        ;
+
+        
+    
+    
+            var marker_6cbc85e052d8eaf54370ebb4ccf83ab9 = L.marker(
+                [36.1902029, -95.9965403],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_9d655658ced0f00b82c8a5a36ec32bda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18644f84734e51858378d811a3b60dfa = $(`<div id="html_18644f84734e51858378d811a3b60dfa" style="width: 100.0%; height: 100.0%;">2503 N MAIN ST, TULSA, OK 74106-3640 BENNY HAYES (REP)</div>`)[0];
+                popup_9d655658ced0f00b82c8a5a36ec32bda.setContent(html_18644f84734e51858378d811a3b60dfa);
+            
+        
+
+        marker_6cbc85e052d8eaf54370ebb4ccf83ab9.bindPopup(popup_9d655658ced0f00b82c8a5a36ec32bda)
+        ;
+
+        
+    
+    
+            var marker_4b52aac0f9717e9156b4df79f2bb1506 = L.marker(
+                [36.1908636, -95.998655],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_701f5fc4808d3aa1cb044d71a97dccd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef5666839eae176084f922a09c7f9bf5 = $(`<div id="html_ef5666839eae176084f922a09c7f9bf5" style="width: 100.0%; height: 100.0%;">2522 N CHEYENNE AVE, TULSA, OK 74106-3625 PETER JOHNSON (DEM)</div>`)[0];
+                popup_701f5fc4808d3aa1cb044d71a97dccd0.setContent(html_ef5666839eae176084f922a09c7f9bf5);
+            
+        
+
+        marker_4b52aac0f9717e9156b4df79f2bb1506.bindPopup(popup_701f5fc4808d3aa1cb044d71a97dccd0)
+        ;
+
+        
+    
+    
+            var marker_88f328fa17bb3ba97b75e08b3bd47d76 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_cba8ffee7cc1d20a083267d0b131c162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066e1f7d6b7649b3cd0c49178a9a304c = $(`<div id="html_066e1f7d6b7649b3cd0c49178a9a304c" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 ANEISHA MAYS (DEM)</div>`)[0];
+                popup_cba8ffee7cc1d20a083267d0b131c162.setContent(html_066e1f7d6b7649b3cd0c49178a9a304c);
+            
+        
+
+        marker_88f328fa17bb3ba97b75e08b3bd47d76.bindPopup(popup_cba8ffee7cc1d20a083267d0b131c162)
+        ;
+
+        
+    
+    
+            var marker_e48dedeb05271f9553a591d88b165b57 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_02e77e3b5d8dfcd06e2a3d5383f9e3f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa3d5af16a2bd10c2d59252aff6012d0 = $(`<div id="html_aa3d5af16a2bd10c2d59252aff6012d0" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 IYISHA MAYS (DEM)</div>`)[0];
+                popup_02e77e3b5d8dfcd06e2a3d5383f9e3f5.setContent(html_aa3d5af16a2bd10c2d59252aff6012d0);
+            
+        
+
+        marker_e48dedeb05271f9553a591d88b165b57.bindPopup(popup_02e77e3b5d8dfcd06e2a3d5383f9e3f5)
+        ;
+
+        
+    
+    
+            var marker_827a7a6537fdcb617ebf7b4fd515519b = L.marker(
+                [36.1886486, -95.9980086],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_d699cd7add6996fe67cb50586056c0ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d08ed6592f58e9d38080f1db859590ad = $(`<div id="html_d08ed6592f58e9d38080f1db859590ad" style="width: 100.0%; height: 100.0%;">2426 N CHEYENNE AVE, TULSA, OK 74106-3623 ELSWORTH COOPER (DEM)</div>`)[0];
+                popup_d699cd7add6996fe67cb50586056c0ac.setContent(html_d08ed6592f58e9d38080f1db859590ad);
+            
+        
+
+        marker_827a7a6537fdcb617ebf7b4fd515519b.bindPopup(popup_d699cd7add6996fe67cb50586056c0ac)
+        ;
+
+        
+    
+    
+            var marker_49ab63303d2971fdbecd8f978dfdd746 = L.marker(
+                [36.1894236, -95.9969121],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_47bffdca77dfe511e3d83fb4e4671cee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e8dd1e98da40edb77db446bca02f05 = $(`<div id="html_35e8dd1e98da40edb77db446bca02f05" style="width: 100.0%; height: 100.0%;">2436 N MAIN ST, TULSA, OK 74106-3639 LORDLY BEARD (DEM)</div>`)[0];
+                popup_47bffdca77dfe511e3d83fb4e4671cee.setContent(html_35e8dd1e98da40edb77db446bca02f05);
+            
+        
+
+        marker_49ab63303d2971fdbecd8f978dfdd746.bindPopup(popup_47bffdca77dfe511e3d83fb4e4671cee)
+        ;
+
+        
+    
+    
+            var marker_56a18fac8a54b0faa671bc1249960165 = L.marker(
+                [36.1908037, -95.9972014],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_fe112b6b7fae97d68689284cfc5083b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06a671c835cc7752d34f381a9557c794 = $(`<div id="html_06a671c835cc7752d34f381a9557c794" style="width: 100.0%; height: 100.0%;">2520 N MAIN ST, TULSA, OK 74106-3641 NATHAN SAUNDERS (DEM)</div>`)[0];
+                popup_fe112b6b7fae97d68689284cfc5083b4.setContent(html_06a671c835cc7752d34f381a9557c794);
+            
+        
+
+        marker_56a18fac8a54b0faa671bc1249960165.bindPopup(popup_fe112b6b7fae97d68689284cfc5083b4)
+        ;
+
+        
+    
+    
+            var marker_92ad72ca6ffebdd8ba1a0034b2a6ad27 = L.marker(
+                [36.1908847, -95.9966012],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_5df7bc31ec9390a7655b51be75bb4a10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e45cec74966d4cfed1b2da4c33e7b07d = $(`<div id="html_e45cec74966d4cfed1b2da4c33e7b07d" style="width: 100.0%; height: 100.0%;">2525 N MAIN ST, TULSA, OK 74106-3640 DANIELLE ADAMS (DEM)</div>`)[0];
+                popup_5df7bc31ec9390a7655b51be75bb4a10.setContent(html_e45cec74966d4cfed1b2da4c33e7b07d);
+            
+        
+
+        marker_92ad72ca6ffebdd8ba1a0034b2a6ad27.bindPopup(popup_5df7bc31ec9390a7655b51be75bb4a10)
+        ;
+
+        
+    
+    
+            var marker_e1dd9a04454c6942c551714ae6c8d6f1 = L.marker(
+                [36.1908037, -95.9972014],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_e514690cf1ca5895dbefbfdc41f7ccc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da0e1f20c2c10e2203484faf1d9b313c = $(`<div id="html_da0e1f20c2c10e2203484faf1d9b313c" style="width: 100.0%; height: 100.0%;">2520 N MAIN ST, TULSA, OK 74106-3641 WANDA CHILDS (DEM)</div>`)[0];
+                popup_e514690cf1ca5895dbefbfdc41f7ccc4.setContent(html_da0e1f20c2c10e2203484faf1d9b313c);
+            
+        
+
+        marker_e1dd9a04454c6942c551714ae6c8d6f1.bindPopup(popup_e514690cf1ca5895dbefbfdc41f7ccc4)
+        ;
+
+        
+    
+    
+            var marker_1efb14d37c4c9146c9ce817cde1c57d9 = L.marker(
+                [36.1907597, -95.9960657],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_569ea692d2da060ad814c5d207f25bf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e83495d5ad616f6d3425b9f66f5b9b5 = $(`<div id="html_9e83495d5ad616f6d3425b9f66f5b9b5" style="width: 100.0%; height: 100.0%;">2532 N BOSTON AVE, TULSA, OK 74106-3609 CHERYL DENISON (DEM)</div>`)[0];
+                popup_569ea692d2da060ad814c5d207f25bf7.setContent(html_9e83495d5ad616f6d3425b9f66f5b9b5);
+            
+        
+
+        marker_1efb14d37c4c9146c9ce817cde1c57d9.bindPopup(popup_569ea692d2da060ad814c5d207f25bf7)
+        ;
+
+        
+    
+    
+            var marker_83ab78dde6663df07c0a3d1050259486 = L.marker(
+                [36.1910593, -95.9971601],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_26bcc778903711eac112ded04b40ba1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c06f3869443aca01ba0faacc918c1086 = $(`<div id="html_c06f3869443aca01ba0faacc918c1086" style="width: 100.0%; height: 100.0%;">2528 N MAIN ST, TULSA, OK 74106-3641 KAREEMAH MUHAMMAD (IND)</div>`)[0];
+                popup_26bcc778903711eac112ded04b40ba1b.setContent(html_c06f3869443aca01ba0faacc918c1086);
+            
+        
+
+        marker_83ab78dde6663df07c0a3d1050259486.bindPopup(popup_26bcc778903711eac112ded04b40ba1b)
+        ;
+
+        
+    
+    
+            var marker_49839cad30d64e6751e553a236f078ae = L.marker(
+                [36.1904709, -95.9966595],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_bf1f942d3a05dae1b326104f34c94cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_729221179112e07c418d0ba733d912b0 = $(`<div id="html_729221179112e07c418d0ba733d912b0" style="width: 100.0%; height: 100.0%;">2511 N MAIN ST, TULSA, OK 74106-3640 ESMERALDA MONTOYA (REP)</div>`)[0];
+                popup_bf1f942d3a05dae1b326104f34c94cc7.setContent(html_729221179112e07c418d0ba733d912b0);
+            
+        
+
+        marker_49839cad30d64e6751e553a236f078ae.bindPopup(popup_bf1f942d3a05dae1b326104f34c94cc7)
+        ;
+
+        
+    
+    
+            var marker_5230a12d354e669a5ba7ed1f408ccce7 = L.marker(
+                [36.1906429, -95.9971842],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_6e45e30ec45c0e3e6fd2662e1a3c6524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ae07113d4f9a092830f29e536062fd7 = $(`<div id="html_0ae07113d4f9a092830f29e536062fd7" style="width: 100.0%; height: 100.0%;">2516 N MAIN ST, TULSA, OK 74106-3641 ALIX GOFF (DEM)</div>`)[0];
+                popup_6e45e30ec45c0e3e6fd2662e1a3c6524.setContent(html_0ae07113d4f9a092830f29e536062fd7);
+            
+        
+
+        marker_5230a12d354e669a5ba7ed1f408ccce7.bindPopup(popup_6e45e30ec45c0e3e6fd2662e1a3c6524)
+        ;
+
+        
+    
+    
+            var marker_f65212f0f60147fb3c2ccf7fa4eb78d5 = L.marker(
+                [36.1888908, -95.9965816],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_7047151567d8442f2c99b7d2113359f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43e1b8172c2cff6c879336fd5994bcf6 = $(`<div id="html_43e1b8172c2cff6c879336fd5994bcf6" style="width: 100.0%; height: 100.0%;">2425 N MAIN ST, TULSA, OK 74106-3638 KAILEY JONES (LIB)</div>`)[0];
+                popup_7047151567d8442f2c99b7d2113359f7.setContent(html_43e1b8172c2cff6c879336fd5994bcf6);
+            
+        
+
+        marker_f65212f0f60147fb3c2ccf7fa4eb78d5.bindPopup(popup_7047151567d8442f2c99b7d2113359f7)
+        ;
+
+        
+    
+    
+            var marker_ce02b7cb27f55e8d4e1984bab017bb74 = L.marker(
+                [36.1912869, -95.9966534],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_353ebaf8b4f838aa4d8d4c8f4061a057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e00945850c46ce4486bc180f171a742d = $(`<div id="html_e00945850c46ce4486bc180f171a742d" style="width: 100.0%; height: 100.0%;">2535 N MAIN ST, TULSA, OK 74106-3640 DAVID SCOGGINS (DEM)</div>`)[0];
+                popup_353ebaf8b4f838aa4d8d4c8f4061a057.setContent(html_e00945850c46ce4486bc180f171a742d);
+            
+        
+
+        marker_ce02b7cb27f55e8d4e1984bab017bb74.bindPopup(popup_353ebaf8b4f838aa4d8d4c8f4061a057)
+        ;
+
+        
+    
+    
+            var marker_47bd0518b7c76606f6e6161206964850 = L.marker(
+                [36.1897807, -95.9975045],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_39330c5fe73e4ce6191861ea6c748714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d95b27f758c75102593eb4a65290088 = $(`<div id="html_5d95b27f758c75102593eb4a65290088" style="width: 100.0%; height: 100.0%;">2455 N CHEYENNE AVE, TULSA, OK 74106-3622 MICHAEL LEDBETTER (IND)</div>`)[0];
+                popup_39330c5fe73e4ce6191861ea6c748714.setContent(html_5d95b27f758c75102593eb4a65290088);
+            
+        
+
+        marker_47bd0518b7c76606f6e6161206964850.bindPopup(popup_39330c5fe73e4ce6191861ea6c748714)
+        ;
+
+        
+    
+    
+            var marker_35c6e6d5da48b02c62265cde8c93ada0 = L.marker(
+                [36.1892613, -95.9961851],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_b3e947e3334a48fbc5d86f544d224402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdd54ab54ac96426b96de440d4a2a3bf = $(`<div id="html_fdd54ab54ac96426b96de440d4a2a3bf" style="width: 100.0%; height: 100.0%;">2454 N BOSTON AVE, TULSA, OK 74106-3607 JANA DANIELS (DEM)</div>`)[0];
+                popup_b3e947e3334a48fbc5d86f544d224402.setContent(html_fdd54ab54ac96426b96de440d4a2a3bf);
+            
+        
+
+        marker_35c6e6d5da48b02c62265cde8c93ada0.bindPopup(popup_b3e947e3334a48fbc5d86f544d224402)
+        ;
+
+        
+    
+    
+            var marker_da6be77140ac39fa633fd3a29cd06019 = L.marker(
+                [36.1903459, -95.99830980000002],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_18d45adf15bb1ccf8ff26c12db57cafa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_802b23727e54e20f3f05fbb88dbf5bce = $(`<div id="html_802b23727e54e20f3f05fbb88dbf5bce" style="width: 100.0%; height: 100.0%;">2506 N CHEYENNE AVE, TULSA, OK 74106-3625 RONALD RATLIFF (DEM)</div>`)[0];
+                popup_18d45adf15bb1ccf8ff26c12db57cafa.setContent(html_802b23727e54e20f3f05fbb88dbf5bce);
+            
+        
+
+        marker_da6be77140ac39fa633fd3a29cd06019.bindPopup(popup_18d45adf15bb1ccf8ff26c12db57cafa)
+        ;
+
+        
+    
+    
+            var marker_e5e71cef8622c7802c9118497570c37c = L.marker(
+                [36.1906813, -95.9994435],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_11a3b5d82c973c34f1ca09f72b889ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d052e3cbd260505f3ac0554071c09ce7 = $(`<div id="html_d052e3cbd260505f3ac0554071c09ce7" style="width: 100.0%; height: 100.0%;">235 W ZION ST, TULSA, OK 74106-3655 CALEB LONG (IND)</div>`)[0];
+                popup_11a3b5d82c973c34f1ca09f72b889ca3.setContent(html_d052e3cbd260505f3ac0554071c09ce7);
+            
+        
+
+        marker_e5e71cef8622c7802c9118497570c37c.bindPopup(popup_11a3b5d82c973c34f1ca09f72b889ca3)
+        ;
+
+        
+    
+    
+            var marker_29ade15ae06f46aec22605ca08aadf07 = L.marker(
+                [36.1906813, -95.9994435],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_e6a5d1d6411bbefa55ac6c7296bb3654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b841e2064380b45b7714a0824245d069 = $(`<div id="html_b841e2064380b45b7714a0824245d069" style="width: 100.0%; height: 100.0%;">235 W ZION ST, TULSA, OK 74106-3655 KATHERINE LONG (IND)</div>`)[0];
+                popup_e6a5d1d6411bbefa55ac6c7296bb3654.setContent(html_b841e2064380b45b7714a0824245d069);
+            
+        
+
+        marker_29ade15ae06f46aec22605ca08aadf07.bindPopup(popup_e6a5d1d6411bbefa55ac6c7296bb3654)
+        ;
+
+        
+    
+    
+            var marker_515b23dfd199bafec30411c898b37825 = L.marker(
+                [36.1897807, -95.9975045],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_f1890cb80d3f539bd339aa55d721de29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73ed0fa711974f231428d9e53d782982 = $(`<div id="html_73ed0fa711974f231428d9e53d782982" style="width: 100.0%; height: 100.0%;">2455 N CHEYENNE AVE, TULSA, OK 74106-3622 ASHLEY LEDBETTER (IND)</div>`)[0];
+                popup_f1890cb80d3f539bd339aa55d721de29.setContent(html_73ed0fa711974f231428d9e53d782982);
+            
+        
+
+        marker_515b23dfd199bafec30411c898b37825.bindPopup(popup_f1890cb80d3f539bd339aa55d721de29)
+        ;
+
+        
+    
+    
+            var marker_15b0c9c1893107fdc995a2bb38ae9b74 = L.marker(
+                [36.1902029, -95.9965403],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_3f5c53d9ae850367f3ddb713f65614a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d17aaded5e14066202fa3d112debc1c = $(`<div id="html_9d17aaded5e14066202fa3d112debc1c" style="width: 100.0%; height: 100.0%;">2503 N MAIN ST, TULSA, OK 74106-3640 JOHN HAYES (IND)</div>`)[0];
+                popup_3f5c53d9ae850367f3ddb713f65614a1.setContent(html_9d17aaded5e14066202fa3d112debc1c);
+            
+        
+
+        marker_15b0c9c1893107fdc995a2bb38ae9b74.bindPopup(popup_3f5c53d9ae850367f3ddb713f65614a1)
+        ;
+
+        
+    
+    
+            var marker_323ebf862184de3d300f55d8b82da94a = L.marker(
+                [36.1888908, -95.9965816],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_fa58c10e6ad1a454d872fab19eba93d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a19338edb4d29b369ccdf6afb3405ed4 = $(`<div id="html_a19338edb4d29b369ccdf6afb3405ed4" style="width: 100.0%; height: 100.0%;">2425 N MAIN ST, TULSA, OK 74106 DANIEL BARNETT (LIB)</div>`)[0];
+                popup_fa58c10e6ad1a454d872fab19eba93d7.setContent(html_a19338edb4d29b369ccdf6afb3405ed4);
+            
+        
+
+        marker_323ebf862184de3d300f55d8b82da94a.bindPopup(popup_fa58c10e6ad1a454d872fab19eba93d7)
+        ;
+
+        
+    
+    
+            var marker_62665fa06ab528dddde7b2a47c87349d = L.marker(
+                [36.1912235, -96.000112],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_6e348d29e2e5850fb2df188d8e51ae3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6184e78c84716c8a30b5d5c46fd7aa0c = $(`<div id="html_6184e78c84716c8a30b5d5c46fd7aa0c" style="width: 100.0%; height: 100.0%;">238 W APACHE ST, TULSA, OK 74106-3605 MICHAEL MCCLAIN (IND)</div>`)[0];
+                popup_6e348d29e2e5850fb2df188d8e51ae3e.setContent(html_6184e78c84716c8a30b5d5c46fd7aa0c);
+            
+        
+
+        marker_62665fa06ab528dddde7b2a47c87349d.bindPopup(popup_6e348d29e2e5850fb2df188d8e51ae3e)
+        ;
+
+        
+    
+    
+            var marker_93e5cddd81e8f0138043660ebbd311a8 = L.marker(
+                [36.1892594, -95.9975237],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_af15652dd1341f27001a5ae861823764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6b6d4c34a6ff7d06fed724056a8136a = $(`<div id="html_e6b6d4c34a6ff7d06fed724056a8136a" style="width: 100.0%; height: 100.0%;">2437 N CHEYENNE AVE, TULSA, OK 74106-3622 ROCHELLE WARE (DEM)</div>`)[0];
+                popup_af15652dd1341f27001a5ae861823764.setContent(html_e6b6d4c34a6ff7d06fed724056a8136a);
+            
+        
+
+        marker_93e5cddd81e8f0138043660ebbd311a8.bindPopup(popup_af15652dd1341f27001a5ae861823764)
+        ;
+
+        
+    
+    
+            var marker_787fe69c9d76367cea3e5223e6b1a14f = L.marker(
+                [36.188869, -95.9960708],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_98160147a02596edaacc1f65ab3ad694 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_868854b8fc747c66a319d9665bb1d09c = $(`<div id="html_868854b8fc747c66a319d9665bb1d09c" style="width: 100.0%; height: 100.0%;">2444 N BOSTON AVE, TULSA, OK 74106 AARON MOSLEY (REP)</div>`)[0];
+                popup_98160147a02596edaacc1f65ab3ad694.setContent(html_868854b8fc747c66a319d9665bb1d09c);
+            
+        
+
+        marker_787fe69c9d76367cea3e5223e6b1a14f.bindPopup(popup_98160147a02596edaacc1f65ab3ad694)
+        ;
+
+        
+    
+    
+            var marker_46db03968fca78c048b631ce575e9690 = L.marker(
+                [36.1892594, -95.9975237],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_5f2899171dd13c881cc0be29f2a25788 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e60ec9f293658b341b5b36fd4342502d = $(`<div id="html_e60ec9f293658b341b5b36fd4342502d" style="width: 100.0%; height: 100.0%;">2437 N CHEYENNE AVE, TULSA, OK 74106 CIBONEY WARE (IND)</div>`)[0];
+                popup_5f2899171dd13c881cc0be29f2a25788.setContent(html_e60ec9f293658b341b5b36fd4342502d);
+            
+        
+
+        marker_46db03968fca78c048b631ce575e9690.bindPopup(popup_5f2899171dd13c881cc0be29f2a25788)
+        ;
+
+        
+    
+    
+            var marker_3c2c21cf83b41e50b7ee529ec2397def = L.marker(
+                [36.189299, -95.9970473],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_7a88f05b32d84426f323c2b7ff6f8c32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee400195c2b91a78dae0bbe0f3c42f26 = $(`<div id="html_ee400195c2b91a78dae0bbe0f3c42f26" style="width: 100.0%; height: 100.0%;">2434 N MAIN ST, TULSA, OK 74106 JENNIFER BISHOP (IND)</div>`)[0];
+                popup_7a88f05b32d84426f323c2b7ff6f8c32.setContent(html_ee400195c2b91a78dae0bbe0f3c42f26);
+            
+        
+
+        marker_3c2c21cf83b41e50b7ee529ec2397def.bindPopup(popup_7a88f05b32d84426f323c2b7ff6f8c32)
+        ;
+
+        
+    
+    
+            var marker_1621a57c66f72da62f47a5fa8c4f3ead = L.marker(
+                [36.188869, -95.9960708],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_8269ecafd88560da3248f889f7869c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_098063d0aaf556da7c056800c0b7a720 = $(`<div id="html_098063d0aaf556da7c056800c0b7a720" style="width: 100.0%; height: 100.0%;">2444 N BOSTON AVE, TULSA, OK 74106 LINDA SPICER (REP)</div>`)[0];
+                popup_8269ecafd88560da3248f889f7869c7f.setContent(html_098063d0aaf556da7c056800c0b7a720);
+            
+        
+
+        marker_1621a57c66f72da62f47a5fa8c4f3ead.bindPopup(popup_8269ecafd88560da3248f889f7869c7f)
+        ;
+
+        
+    
+    
+            var marker_f928b38922e96f04954999843b54b4c0 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_0a1d5646ff4c0b959def055f20861878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_556f5c43d41b29b080fb720e04ef183d = $(`<div id="html_556f5c43d41b29b080fb720e04ef183d" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 RACHELLE MCBEE (DEM)</div>`)[0];
+                popup_0a1d5646ff4c0b959def055f20861878.setContent(html_556f5c43d41b29b080fb720e04ef183d);
+            
+        
+
+        marker_f928b38922e96f04954999843b54b4c0.bindPopup(popup_0a1d5646ff4c0b959def055f20861878)
+        ;
+
+        
+    
+    
+            var marker_bf0bcc3dd819c4b38ec71729abf8d33f = L.marker(
+                [36.191166, -95.9966485],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_5edbe99aae41e2bbc2bf573faef32447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef119a276b6139d56998457ff8eb7e47 = $(`<div id="html_ef119a276b6139d56998457ff8eb7e47" style="width: 100.0%; height: 100.0%;">2533 N MAIN ST, TULSA, OK 74106-3640 SYLVESTER SAVAGE (DEM)</div>`)[0];
+                popup_5edbe99aae41e2bbc2bf573faef32447.setContent(html_ef119a276b6139d56998457ff8eb7e47);
+            
+        
+
+        marker_bf0bcc3dd819c4b38ec71729abf8d33f.bindPopup(popup_5edbe99aae41e2bbc2bf573faef32447)
+        ;
+
+        
+    
+    
+            var marker_01ebaef2a23c6691cf704dfe7967fc41 = L.marker(
+                [36.1911867, -95.9989786],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_a366dde077f05ace40786d21b6b0b5f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5ced294d0d717108c089a29034309a8 = $(`<div id="html_a5ced294d0d717108c089a29034309a8" style="width: 100.0%; height: 100.0%;">210 W APACHE ST, TULSA, OK 74106-3605 CLINTON JOHNSON (DEM)</div>`)[0];
+                popup_a366dde077f05ace40786d21b6b0b5f0.setContent(html_a5ced294d0d717108c089a29034309a8);
+            
+        
+
+        marker_01ebaef2a23c6691cf704dfe7967fc41.bindPopup(popup_a366dde077f05ace40786d21b6b0b5f0)
+        ;
+
+        
+    
+    
+            var marker_6c02103315ddc372b089d4ebcd8b5b00 = L.marker(
+                [36.1911867, -95.9989786],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_0dc9c79cee64d7cbbda9a55de9ca3bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e87fb6b335d8c9b84873748e5dcbc73 = $(`<div id="html_8e87fb6b335d8c9b84873748e5dcbc73" style="width: 100.0%; height: 100.0%;">210 W APACHE ST, TULSA, OK 74106-3605 JOYCE FARMER (DEM)</div>`)[0];
+                popup_0dc9c79cee64d7cbbda9a55de9ca3bf2.setContent(html_8e87fb6b335d8c9b84873748e5dcbc73);
+            
+        
+
+        marker_6c02103315ddc372b089d4ebcd8b5b00.bindPopup(popup_0dc9c79cee64d7cbbda9a55de9ca3bf2)
+        ;
+
+        
+    
+    
+            var marker_9995e08cb12f491b3575592f3cfc4511 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_2f8377e3b34e14e59b7564290ba71dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6b767614a4dbb9c20850b5616f45d2d = $(`<div id="html_c6b767614a4dbb9c20850b5616f45d2d" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 RAMON MCBEE (IND)</div>`)[0];
+                popup_2f8377e3b34e14e59b7564290ba71dc3.setContent(html_c6b767614a4dbb9c20850b5616f45d2d);
+            
+        
+
+        marker_9995e08cb12f491b3575592f3cfc4511.bindPopup(popup_2f8377e3b34e14e59b7564290ba71dc3)
+        ;
+
+        
+    
+    
+            var marker_607eafc63ddfb73fc8f3984d4038460f = L.marker(
+                [36.1906025, -95.9977992],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_de80fa32848a8221241f5dae43af29b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc3bac44b517c1a54292074ca3c7588 = $(`<div id="html_4dc3bac44b517c1a54292074ca3c7588" style="width: 100.0%; height: 100.0%;">2509 N CHEYENNE AVE, TULSA, OK 74106-3624 BEVERLY HUBBARD (DEM)</div>`)[0];
+                popup_de80fa32848a8221241f5dae43af29b4.setContent(html_4dc3bac44b517c1a54292074ca3c7588);
+            
+        
+
+        marker_607eafc63ddfb73fc8f3984d4038460f.bindPopup(popup_de80fa32848a8221241f5dae43af29b4)
+        ;
+
+        
+    
+    
+            var marker_e35300218d00afac4cc0b8bae2ca4d30 = L.marker(
+                [36.1912664, -95.9972427],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_3334f6cf5c56edc83909ec1d2df9da04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a6a9def01d0f985a3a4f9e132d43259 = $(`<div id="html_6a6a9def01d0f985a3a4f9e132d43259" style="width: 100.0%; height: 100.0%;">2540 N MAIN ST, TULSA, OK 74106-3641 LUIS GUEVARA REYES (DEM)</div>`)[0];
+                popup_3334f6cf5c56edc83909ec1d2df9da04.setContent(html_6a6a9def01d0f985a3a4f9e132d43259);
+            
+        
+
+        marker_e35300218d00afac4cc0b8bae2ca4d30.bindPopup(popup_3334f6cf5c56edc83909ec1d2df9da04)
+        ;
+
+        
+    
+    
+            var marker_b77ee17b222eaefa1f5725bd4eeddf11 = L.marker(
+                [36.1900765, -95.9960613],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_2918924150165a1b1fe15d54c4110f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5251437db4493728b77a450d80e80937 = $(`<div id="html_5251437db4493728b77a450d80e80937" style="width: 100.0%; height: 100.0%;">2512 N BOSTON AVE, TULSA, OK 74106-3609 NAOMI PETZ (IND)</div>`)[0];
+                popup_2918924150165a1b1fe15d54c4110f21.setContent(html_5251437db4493728b77a450d80e80937);
+            
+        
+
+        marker_b77ee17b222eaefa1f5725bd4eeddf11.bindPopup(popup_2918924150165a1b1fe15d54c4110f21)
+        ;
+
+        
+    
+    
+            var marker_82adac3a4e0ff370e72b120248a201a9 = L.marker(
+                [36.1903985, -95.9976972],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_423d7bb7db27953dd356ced535323587 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13e6f2f4ea393185bfa8f2f02c8c94c = $(`<div id="html_c13e6f2f4ea393185bfa8f2f02c8c94c" style="width: 100.0%; height: 100.0%;">2505 N CHEYENNE AVE, TULSA, OK 74106-3624 GINA JOHNSON (IND)</div>`)[0];
+                popup_423d7bb7db27953dd356ced535323587.setContent(html_c13e6f2f4ea393185bfa8f2f02c8c94c);
+            
+        
+
+        marker_82adac3a4e0ff370e72b120248a201a9.bindPopup(popup_423d7bb7db27953dd356ced535323587)
+        ;
+
+        
+    
+    
+            var marker_3bd8ec509b3b024be957f4520692ee0b = L.marker(
+                [36.1881409, -95.9968792],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_c0002a88e299d36c272f44d8d69b1426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ee2feb56cb4915f56adf34988b7e27 = $(`<div id="html_88ee2feb56cb4915f56adf34988b7e27" style="width: 100.0%; height: 100.0%;">2407 N MAIN ST, TULSA, OK 74106-3638 MATTHEW ACKER (IND)</div>`)[0];
+                popup_c0002a88e299d36c272f44d8d69b1426.setContent(html_88ee2feb56cb4915f56adf34988b7e27);
+            
+        
+
+        marker_3bd8ec509b3b024be957f4520692ee0b.bindPopup(popup_c0002a88e299d36c272f44d8d69b1426)
+        ;
+
+        
+    
+    
+            var marker_fcaf1b76099a7f3d9187eef691fd30db = L.marker(
+                [36.1881409, -95.9968792],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_9313c8cce5cdfd84742835ac88e79b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a11b1cc96bc916cb5ed5065182d8a2c = $(`<div id="html_4a11b1cc96bc916cb5ed5065182d8a2c" style="width: 100.0%; height: 100.0%;">2407 N MAIN ST, TULSA, OK 74106-3638 LAURA ACKER (IND)</div>`)[0];
+                popup_9313c8cce5cdfd84742835ac88e79b74.setContent(html_4a11b1cc96bc916cb5ed5065182d8a2c);
+            
+        
+
+        marker_fcaf1b76099a7f3d9187eef691fd30db.bindPopup(popup_9313c8cce5cdfd84742835ac88e79b74)
+        ;
+
+        
+    
+    
+            var marker_eec7f417f06d6a891350b4096735e4b2 = L.marker(
+                [36.188869, -95.9960708],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_d89923c3f6b730e9177baa6885c0ba24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a15d2dc85f176e119f0b1341efe3a11 = $(`<div id="html_7a15d2dc85f176e119f0b1341efe3a11" style="width: 100.0%; height: 100.0%;">2444 N BOSTON AVE, TULSA, OK 74106 SHIRLEY ADAMS (REP)</div>`)[0];
+                popup_d89923c3f6b730e9177baa6885c0ba24.setContent(html_7a15d2dc85f176e119f0b1341efe3a11);
+            
+        
+
+        marker_eec7f417f06d6a891350b4096735e4b2.bindPopup(popup_d89923c3f6b730e9177baa6885c0ba24)
+        ;
+
+        
+    
+    
+            var marker_f4dab9a8b24cc8a68ea10d23c10920ff = L.marker(
+                [36.1903985, -95.9976972],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_a36db279e2c7c8272813010254ba043a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_040957f925dfd6d3ed1c7c68a6fa560a = $(`<div id="html_040957f925dfd6d3ed1c7c68a6fa560a" style="width: 100.0%; height: 100.0%;">2505 N CHEYENNE AVE, TULSA, OK 74106-3624 CHARLES BELL (IND)</div>`)[0];
+                popup_a36db279e2c7c8272813010254ba043a.setContent(html_040957f925dfd6d3ed1c7c68a6fa560a);
+            
+        
+
+        marker_f4dab9a8b24cc8a68ea10d23c10920ff.bindPopup(popup_a36db279e2c7c8272813010254ba043a)
+        ;
+
+        
+    
+    
+            var marker_1b9bbaa8d2832d441cfba7f2422119c2 = L.marker(
+                [36.1907644, -95.9979865],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_2d6455900eea537f23715a568ee72ee7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac86846b87a810feb0117f1e870688af = $(`<div id="html_ac86846b87a810feb0117f1e870688af" style="width: 100.0%; height: 100.0%;">2515 N CHEYENNE AVE, TULSA, OK 74106-3624 CHERYL MATLOCK (REP)</div>`)[0];
+                popup_2d6455900eea537f23715a568ee72ee7.setContent(html_ac86846b87a810feb0117f1e870688af);
+            
+        
+
+        marker_1b9bbaa8d2832d441cfba7f2422119c2.bindPopup(popup_2d6455900eea537f23715a568ee72ee7)
+        ;
+
+        
+    
+    
+            var marker_f07bd62aaa9a08a637f97e8bac3527c0 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_018c599ae375baefa0d6624f7dec7901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a81454643040a854d09851bece044722 = $(`<div id="html_a81454643040a854d09851bece044722" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 AL-HAJJ AL-AYUBI (IND)</div>`)[0];
+                popup_018c599ae375baefa0d6624f7dec7901.setContent(html_a81454643040a854d09851bece044722);
+            
+        
+
+        marker_f07bd62aaa9a08a637f97e8bac3527c0.bindPopup(popup_018c599ae375baefa0d6624f7dec7901)
+        ;
+
+        
+    
+    
+            var marker_8c9512fc1eff4aa125b6f1381f6107af = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_614d963daa70d5556eb19a0d0b3c8f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9433df170e0945359df174437f9859f9 = $(`<div id="html_9433df170e0945359df174437f9859f9" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 EVERETTE SALAHUDIN (DEM)</div>`)[0];
+                popup_614d963daa70d5556eb19a0d0b3c8f21.setContent(html_9433df170e0945359df174437f9859f9);
+            
+        
+
+        marker_8c9512fc1eff4aa125b6f1381f6107af.bindPopup(popup_614d963daa70d5556eb19a0d0b3c8f21)
+        ;
+
+        
+    
+    
+            var marker_b53306307bdc1a0a164c55c85d25f075 = L.marker(
+                [36.189299, -95.9970473],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_b3b0bf218b17d723b0d3a0e55894be79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e80d5e7361628a0201af4d2a9008b738 = $(`<div id="html_e80d5e7361628a0201af4d2a9008b738" style="width: 100.0%; height: 100.0%;">2434 N MAIN ST, TULSA, OK 74106-3639 JOHN ARMOUR (IND)</div>`)[0];
+                popup_b3b0bf218b17d723b0d3a0e55894be79.setContent(html_e80d5e7361628a0201af4d2a9008b738);
+            
+        
+
+        marker_b53306307bdc1a0a164c55c85d25f075.bindPopup(popup_b3b0bf218b17d723b0d3a0e55894be79)
+        ;
+
+        
+    
+    
+            var marker_17e82ccaaf51df0cf1eb4e99a8bc8f9c = L.marker(
+                [36.1888908, -95.9965816],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_4e88ce411f4d4fe3b7c3e93ccc6184ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c24061bd7c29849dbe8f54109714f77 = $(`<div id="html_9c24061bd7c29849dbe8f54109714f77" style="width: 100.0%; height: 100.0%;">2425 N MAIN ST, TULSA, OK 74106 JORDAN BOREN (DEM)</div>`)[0];
+                popup_4e88ce411f4d4fe3b7c3e93ccc6184ed.setContent(html_9c24061bd7c29849dbe8f54109714f77);
+            
+        
+
+        marker_17e82ccaaf51df0cf1eb4e99a8bc8f9c.bindPopup(popup_4e88ce411f4d4fe3b7c3e93ccc6184ed)
+        ;
+
+        
+    
+    
+            var marker_edad1c0a8968f63c82328ab276a996ce = L.marker(
+                [36.1907644, -95.9979865],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_219a985bdfc625c17248e4e6f48f7df1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c659c998dd1a39769b6256bf2c53b85 = $(`<div id="html_4c659c998dd1a39769b6256bf2c53b85" style="width: 100.0%; height: 100.0%;">2515 N CHEYENNE AVE, TULSA, OK 74106-3624 RONALD THRASH (REP)</div>`)[0];
+                popup_219a985bdfc625c17248e4e6f48f7df1.setContent(html_4c659c998dd1a39769b6256bf2c53b85);
+            
+        
+
+        marker_edad1c0a8968f63c82328ab276a996ce.bindPopup(popup_219a985bdfc625c17248e4e6f48f7df1)
+        ;
+
+        
+    
+    
+            var marker_185b5f2e3db60aa6693c06ee3107979f = L.marker(
+                [36.1888908, -95.9965816],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_da3dad736f331d32e37909ad922d18a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e06858fe410e137f0a9d1e2f517a357 = $(`<div id="html_6e06858fe410e137f0a9d1e2f517a357" style="width: 100.0%; height: 100.0%;">2425 N MAIN ST, TULSA, OK 74106 ROB EVES (DEM)</div>`)[0];
+                popup_da3dad736f331d32e37909ad922d18a4.setContent(html_6e06858fe410e137f0a9d1e2f517a357);
+            
+        
+
+        marker_185b5f2e3db60aa6693c06ee3107979f.bindPopup(popup_da3dad736f331d32e37909ad922d18a4)
+        ;
+
+        
+    
+    
+            var marker_7bfe30965ae27ca69193da2126ca5068 = L.marker(
+                [36.1899617, -95.9960621],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_d6b10bb6d719f0a33282b229228cff23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757bb84723ccf8956931dde420df8dc3 = $(`<div id="html_757bb84723ccf8956931dde420df8dc3" style="width: 100.0%; height: 100.0%;">2508 N BOSTON AVE, TULSA, OK 74106 EDDIE DURHAM (IND)</div>`)[0];
+                popup_d6b10bb6d719f0a33282b229228cff23.setContent(html_757bb84723ccf8956931dde420df8dc3);
+            
+        
+
+        marker_7bfe30965ae27ca69193da2126ca5068.bindPopup(popup_d6b10bb6d719f0a33282b229228cff23)
+        ;
+
+        
+    
+    
+            var marker_2d8e10eebdb2a56066a72ef8da47f830 = L.marker(
+                [36.1912836, -95.9960615],
+                {}
+            ).addTo(map_ae92981372b97fe00d600ceccd11d05e);
+        
+    
+        var popup_aa693986b5387c21093969361f82f6c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e766f42bd9fb4cba972466588bd79b9a = $(`<div id="html_e766f42bd9fb4cba972466588bd79b9a" style="width: 100.0%; height: 100.0%;">2548 N BOSTON AVE, TULSA, OK 74106-3609 CHAY'LEB MCBEE (IND)</div>`)[0];
+                popup_aa693986b5387c21093969361f82f6c9.setContent(html_e766f42bd9fb4cba972466588bd79b9a);
+            
+        
+
+        marker_2d8e10eebdb2a56066a72ef8da47f830.bindPopup(popup_aa693986b5387c21093969361f82f6c9)
+        ;
+
+        
+    
+</script>
+</html>

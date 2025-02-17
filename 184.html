@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e746a20fd8fe287d41e4eb804dcf65a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e746a20fd8fe287d41e4eb804dcf65a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e746a20fd8fe287d41e4eb804dcf65a = L.map(
+                "map_9e746a20fd8fe287d41e4eb804dcf65a",
+                {
+                    center: [36.182011447368424, -95.83288474736844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_06872fea3ead7f9a9164bfe3a7d01c89 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_06872fea3ead7f9a9164bfe3a7d01c89.addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+            var marker_1b48c0668bce9adbd7b1bede06cb2cad = L.marker(
+                [36.181273, -95.833811],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_75c3723f4ecdc1c8dc6a850fd850af2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aef0d7f852fd5b6872263a4414e5395 = $(`<div id="html_1aef0d7f852fd5b6872263a4414e5395" style="width: 100.0%; height: 100.0%;">1814 DAVID PATRICK AVE, TULSA, OK 74116-1704 CHRISTOPHER RIVERS (DEM)</div>`)[0];
+                popup_75c3723f4ecdc1c8dc6a850fd850af2d.setContent(html_1aef0d7f852fd5b6872263a4414e5395);
+            
+        
+
+        marker_1b48c0668bce9adbd7b1bede06cb2cad.bindPopup(popup_75c3723f4ecdc1c8dc6a850fd850af2d)
+        ;
+
+        
+    
+    
+            var marker_bc9a8864ffb85a0042d28edba5dc27cd = L.marker(
+                [36.1841735, -95.8336263],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_08f054fc5545424f63043718feb7189d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e5fe85af5b98d56bd3d01df886129f8 = $(`<div id="html_8e5fe85af5b98d56bd3d01df886129f8" style="width: 100.0%; height: 100.0%;">2030 DAVID PATRICK AVE, TULSA, OK 74116-1702 EDDIE SMITTLE (DEM)</div>`)[0];
+                popup_08f054fc5545424f63043718feb7189d.setContent(html_8e5fe85af5b98d56bd3d01df886129f8);
+            
+        
+
+        marker_bc9a8864ffb85a0042d28edba5dc27cd.bindPopup(popup_08f054fc5545424f63043718feb7189d)
+        ;
+
+        
+    
+    
+            var marker_f6f18e8032c621c59a124e262d7550f4 = L.marker(
+                [36.17959620000001, -95.8290987],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_7a002b0386dafb45e0651d65a4d0004c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036ec3aaee06fc62a5f49294b7fda484 = $(`<div id="html_036ec3aaee06fc62a5f49294b7fda484" style="width: 100.0%; height: 100.0%;">12996 E READING PL, TULSA, OK 74116-1715 CHARLIE SWINDELL (REP)</div>`)[0];
+                popup_7a002b0386dafb45e0651d65a4d0004c.setContent(html_036ec3aaee06fc62a5f49294b7fda484);
+            
+        
+
+        marker_f6f18e8032c621c59a124e262d7550f4.bindPopup(popup_7a002b0386dafb45e0651d65a4d0004c)
+        ;
+
+        
+    
+    
+            var marker_a76a0bfbb696e396aa69fe5c49ef4457 = L.marker(
+                [36.1822735, -95.8337953],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_2541639bf335b867bef4f9f41ea02533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_623738a5a82cf95fb5a5d45591acd686 = $(`<div id="html_623738a5a82cf95fb5a5d45591acd686" style="width: 100.0%; height: 100.0%;">1902 DAVID PATRICK AVE, TULSA, OK 74116-1722 BETHANY POWELL (REP)</div>`)[0];
+                popup_2541639bf335b867bef4f9f41ea02533.setContent(html_623738a5a82cf95fb5a5d45591acd686);
+            
+        
+
+        marker_a76a0bfbb696e396aa69fe5c49ef4457.bindPopup(popup_2541639bf335b867bef4f9f41ea02533)
+        ;
+
+        
+    
+    
+            var marker_769b60cf739ab5916a2246db8704c1b2 = L.marker(
+                [36.1795544, -95.8305917],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_8de7c91f2eab34bfeecaacdd5c23dad7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8780ae381e47c1105663be68ba1ffab = $(`<div id="html_a8780ae381e47c1105663be68ba1ffab" style="width: 100.0%; height: 100.0%;">12964 E READING PL, TULSA, OK 74116-1715 COURTNEY BEAUMONT (IND)</div>`)[0];
+                popup_8de7c91f2eab34bfeecaacdd5c23dad7.setContent(html_a8780ae381e47c1105663be68ba1ffab);
+            
+        
+
+        marker_769b60cf739ab5916a2246db8704c1b2.bindPopup(popup_8de7c91f2eab34bfeecaacdd5c23dad7)
+        ;
+
+        
+    
+    
+            var marker_a295d9fc32f8296465a26ca830feea2b = L.marker(
+                [36.1832248, -95.8337945],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_ddf940d62f87d16b1aa7b566805d4438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f538272599ce27f4c57b3203db940c6 = $(`<div id="html_5f538272599ce27f4c57b3203db940c6" style="width: 100.0%; height: 100.0%;">2006 DAVID PATRICK AVE, TULSA, OK 74116-1702 JAMES MACAW (IND)</div>`)[0];
+                popup_ddf940d62f87d16b1aa7b566805d4438.setContent(html_5f538272599ce27f4c57b3203db940c6);
+            
+        
+
+        marker_a295d9fc32f8296465a26ca830feea2b.bindPopup(popup_ddf940d62f87d16b1aa7b566805d4438)
+        ;
+
+        
+    
+    
+            var marker_205e86a2dafd7aac647110683365d278 = L.marker(
+                [36.1810123, -95.8339209],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_0d971f2c430e21f9182af7df88d25773 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e0366e301018784e7c9f27b1b238952 = $(`<div id="html_7e0366e301018784e7c9f27b1b238952" style="width: 100.0%; height: 100.0%;">1810 DAVID PATRICK AVE, TULSA, OK 74116 BRENDAN BOHANNON (REP)</div>`)[0];
+                popup_0d971f2c430e21f9182af7df88d25773.setContent(html_7e0366e301018784e7c9f27b1b238952);
+            
+        
+
+        marker_205e86a2dafd7aac647110683365d278.bindPopup(popup_0d971f2c430e21f9182af7df88d25773)
+        ;
+
+        
+    
+    
+            var marker_b764efe5f26c44cdb6c4d47ae9289297 = L.marker(
+                [36.182851, -95.833803],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_fa94b793c41492845095fe62ac6eeab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d56bc64057fd09c82cfdcb1b7c195947 = $(`<div id="html_d56bc64057fd09c82cfdcb1b7c195947" style="width: 100.0%; height: 100.0%;">1928 DAVID PATRICK AVE, TULSA, OK 74116 GEOVANA CANIZALEZ PEDROZA (REP)</div>`)[0];
+                popup_fa94b793c41492845095fe62ac6eeab2.setContent(html_d56bc64057fd09c82cfdcb1b7c195947);
+            
+        
+
+        marker_b764efe5f26c44cdb6c4d47ae9289297.bindPopup(popup_fa94b793c41492845095fe62ac6eeab2)
+        ;
+
+        
+    
+    
+            var marker_6ce3f7eb9f8cedd18d389e5efbab8a48 = L.marker(
+                [36.1822735, -95.8337953],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_6e3bc1506b3b98008a430f089ef4c0bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86496b37acc99330b3ecab41686f0646 = $(`<div id="html_86496b37acc99330b3ecab41686f0646" style="width: 100.0%; height: 100.0%;">1902 DAVID PATRICK AVE, TULSA, OK 74116-1722 MRKUS POWELL (REP)</div>`)[0];
+                popup_6e3bc1506b3b98008a430f089ef4c0bc.setContent(html_86496b37acc99330b3ecab41686f0646);
+            
+        
+
+        marker_6ce3f7eb9f8cedd18d389e5efbab8a48.bindPopup(popup_6e3bc1506b3b98008a430f089ef4c0bc)
+        ;
+
+        
+    
+    
+            var marker_31d49ed1e46458d4c85b5c1a076c2e1b = L.marker(
+                [36.17959620000001, -95.8290987],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_cd2fa8cb968c5ea5d9978118f60b6f46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_930e23a0c05ab55b2a6b91d12841dd82 = $(`<div id="html_930e23a0c05ab55b2a6b91d12841dd82" style="width: 100.0%; height: 100.0%;">12996 E READING PL, TULSA, OK 74116-1715 NICHOLAS SWINDELL (REP)</div>`)[0];
+                popup_cd2fa8cb968c5ea5d9978118f60b6f46.setContent(html_930e23a0c05ab55b2a6b91d12841dd82);
+            
+        
+
+        marker_31d49ed1e46458d4c85b5c1a076c2e1b.bindPopup(popup_cd2fa8cb968c5ea5d9978118f60b6f46)
+        ;
+
+        
+    
+    
+            var marker_43b5902f4976dd39fd009b1667d3de08 = L.marker(
+                [36.1841735, -95.8336263],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_daa4e1bab8d0ead65cd8f0b18ff4b1ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ef214a5d60981262e4d3e228150204 = $(`<div id="html_45ef214a5d60981262e4d3e228150204" style="width: 100.0%; height: 100.0%;">2030 DAVID PATRICK AVE, TULSA, OK 74116-1702 KENNETH JENNINGS (REP)</div>`)[0];
+                popup_daa4e1bab8d0ead65cd8f0b18ff4b1ae.setContent(html_45ef214a5d60981262e4d3e228150204);
+            
+        
+
+        marker_43b5902f4976dd39fd009b1667d3de08.bindPopup(popup_daa4e1bab8d0ead65cd8f0b18ff4b1ae)
+        ;
+
+        
+    
+    
+            var marker_45393ab52999730116468ce481e38ca9 = L.marker(
+                [36.18154639999999, -95.8335726],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_c050fbedbc6bf8babad2077300d3b429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20d16221c10b24f2d8f57a9f1964db2c = $(`<div id="html_20d16221c10b24f2d8f57a9f1964db2c" style="width: 100.0%; height: 100.0%;">1820 DAVID PATRICK AVE, TULSA, OK 74116-1704 TIMOTHY CAMPBELL (REP)</div>`)[0];
+                popup_c050fbedbc6bf8babad2077300d3b429.setContent(html_20d16221c10b24f2d8f57a9f1964db2c);
+            
+        
+
+        marker_45393ab52999730116468ce481e38ca9.bindPopup(popup_c050fbedbc6bf8babad2077300d3b429)
+        ;
+
+        
+    
+    
+            var marker_173480317181b348b0f4ac8571d719b8 = L.marker(
+                [36.1796295, -95.833028],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_0af88e677a11708461280c206e3153b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5c671932652b6e524af3c15d90121a = $(`<div id="html_ce5c671932652b6e524af3c15d90121a" style="width: 100.0%; height: 100.0%;">1721 DAVID PATRICK AVE, TULSA, OK 74116-1705 JORDAN OLIVER (IND)</div>`)[0];
+                popup_0af88e677a11708461280c206e3153b8.setContent(html_ce5c671932652b6e524af3c15d90121a);
+            
+        
+
+        marker_173480317181b348b0f4ac8571d719b8.bindPopup(popup_0af88e677a11708461280c206e3153b8)
+        ;
+
+        
+    
+    
+            var marker_6c0ca4a3bdeec9187e51c3ce7b8475e6 = L.marker(
+                [36.1841735, -95.8336263],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_da630cc669b0db334a804b70e235a702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b609a4cd06265dbd5d260287f0afcd1 = $(`<div id="html_9b609a4cd06265dbd5d260287f0afcd1" style="width: 100.0%; height: 100.0%;">2030 DAVID PATRICK AVE, TULSA, OK 74116-1702 JESSIP THOMAS (IND)</div>`)[0];
+                popup_da630cc669b0db334a804b70e235a702.setContent(html_9b609a4cd06265dbd5d260287f0afcd1);
+            
+        
+
+        marker_6c0ca4a3bdeec9187e51c3ce7b8475e6.bindPopup(popup_da630cc669b0db334a804b70e235a702)
+        ;
+
+        
+    
+    
+            var marker_fc4f6345098717c344269768736cdb90 = L.marker(
+                [36.18154639999999, -95.8335726],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_085521b8bcf9b6eddd7082ee6d9ad364 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a7bce180c2aee2c02c146242d2fbeb4 = $(`<div id="html_2a7bce180c2aee2c02c146242d2fbeb4" style="width: 100.0%; height: 100.0%;">1820 DAVID PATRICK AVE, TULSA, OK 74116-1704 CLARICE CAMPBELL (IND)</div>`)[0];
+                popup_085521b8bcf9b6eddd7082ee6d9ad364.setContent(html_2a7bce180c2aee2c02c146242d2fbeb4);
+            
+        
+
+        marker_fc4f6345098717c344269768736cdb90.bindPopup(popup_085521b8bcf9b6eddd7082ee6d9ad364)
+        ;
+
+        
+    
+    
+            var marker_12fbbabcfe609e3026361901a604f206 = L.marker(
+                [36.182851, -95.833803],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_ad5dfebe14995ec80943d3e342c7d913 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b50c55ea626b78087780a624ad68ae = $(`<div id="html_13b50c55ea626b78087780a624ad68ae" style="width: 100.0%; height: 100.0%;">1928 DAVID PATRICK AVE, TULSA, OK 74116 RAUL PEDROZA (REP)</div>`)[0];
+                popup_ad5dfebe14995ec80943d3e342c7d913.setContent(html_13b50c55ea626b78087780a624ad68ae);
+            
+        
+
+        marker_12fbbabcfe609e3026361901a604f206.bindPopup(popup_ad5dfebe14995ec80943d3e342c7d913)
+        ;
+
+        
+    
+    
+            var marker_d9a783584a6fe97843c4660cb96ea79c = L.marker(
+                [36.1841735, -95.8336263],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_df8b81366d175688e80332524235aff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6601d51188f9e2253fc3d5e9de35b3 = $(`<div id="html_de6601d51188f9e2253fc3d5e9de35b3" style="width: 100.0%; height: 100.0%;">2030 DAVID PATRICK AVE, TULSA, OK 74116-1702 PATSY URBAN (IND)</div>`)[0];
+                popup_df8b81366d175688e80332524235aff8.setContent(html_de6601d51188f9e2253fc3d5e9de35b3);
+            
+        
+
+        marker_d9a783584a6fe97843c4660cb96ea79c.bindPopup(popup_df8b81366d175688e80332524235aff8)
+        ;
+
+        
+    
+    
+            var marker_24453080b7ba0179043d6f3b6065fda6 = L.marker(
+                [36.185123, -95.834871],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_4cf3a2291635c137a08ed72de2719522 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9966233cffaee1045cccbf85a010c3d0 = $(`<div id="html_9966233cffaee1045cccbf85a010c3d0" style="width: 100.0%; height: 100.0%;">2108 DAVID PATRICK AVE, TULSA, OK 74116-1729 ISIDRO SALGADO (IND)</div>`)[0];
+                popup_4cf3a2291635c137a08ed72de2719522.setContent(html_9966233cffaee1045cccbf85a010c3d0);
+            
+        
+
+        marker_24453080b7ba0179043d6f3b6065fda6.bindPopup(popup_4cf3a2291635c137a08ed72de2719522)
+        ;
+
+        
+    
+    
+            var marker_54bedf3b491e16e8a8ff53519e566df4 = L.marker(
+                [36.1791723, -95.8297487],
+                {}
+            ).addTo(map_9e746a20fd8fe287d41e4eb804dcf65a);
+        
+    
+        var popup_30f783a7c96fa87763878a6a5757866f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f856ed54ddd16a5fcbdf8f628dc9e61b = $(`<div id="html_f856ed54ddd16a5fcbdf8f628dc9e61b" style="width: 100.0%; height: 100.0%;">12988 E READING PL, TULSA, OK 74116-1715 HUNTER HUTCHINS (REP)</div>`)[0];
+                popup_30f783a7c96fa87763878a6a5757866f.setContent(html_f856ed54ddd16a5fcbdf8f628dc9e61b);
+            
+        
+
+        marker_54bedf3b491e16e8a8ff53519e566df4.bindPopup(popup_30f783a7c96fa87763878a6a5757866f)
+        ;
+
+        
+    
+</script>
+</html>

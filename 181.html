@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0985f9f31aa852ad42e4c7d91227097a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0985f9f31aa852ad42e4c7d91227097a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0985f9f31aa852ad42e4c7d91227097a = L.map(
+                "map_0985f9f31aa852ad42e4c7d91227097a",
+                {
+                    center: [36.16984497721519, -95.85089148227844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2893293f4fb7e88b902db8b9b27e41f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d2893293f4fb7e88b902db8b9b27e41f.addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+            var marker_4264e0cf93e3631267182a9915bb24f3 = L.marker(
+                [36.1736529, -95.8495776],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_8ddb4ceba581ad44147c236593eca9fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d0dae143f84030b304ee88ecbd027d2 = $(`<div id="html_9d0dae143f84030b304ee88ecbd027d2" style="width: 100.0%; height: 100.0%;">11350 E NEWTON PL, TULSA, OK 74116-2013 CHARLES ALLEN (DEM)</div>`)[0];
+                popup_8ddb4ceba581ad44147c236593eca9fd.setContent(html_9d0dae143f84030b304ee88ecbd027d2);
+            
+        
+
+        marker_4264e0cf93e3631267182a9915bb24f3.bindPopup(popup_8ddb4ceba581ad44147c236593eca9fd)
+        ;
+
+        
+    
+    
+            var marker_321be44ddd224125209c439acba91145 = L.marker(
+                [36.1741474, -95.8498491],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_25626267758a161236f36c822623daf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54fdf48f11197709713bb9b54cf6d12a = $(`<div id="html_54fdf48f11197709713bb9b54cf6d12a" style="width: 100.0%; height: 100.0%;">11353 E NEWTON PL, TULSA, OK 74116-2014 DONNA BARNETT (REP)</div>`)[0];
+                popup_25626267758a161236f36c822623daf2.setContent(html_54fdf48f11197709713bb9b54cf6d12a);
+            
+        
+
+        marker_321be44ddd224125209c439acba91145.bindPopup(popup_25626267758a161236f36c822623daf2)
+        ;
+
+        
+    
+    
+            var marker_776e2277b295fc59eecabc31a6237158 = L.marker(
+                [36.1719443, -95.8469343],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_28d77842cc0ed960ffac290d430250b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56ecf3de8bca57df0d0022630e65918e = $(`<div id="html_56ecf3de8bca57df0d0022630e65918e" style="width: 100.0%; height: 100.0%;">1145 N GARNETT RD, TULSA, OK 74116 BETTY BORTHICK (DEM)</div>`)[0];
+                popup_28d77842cc0ed960ffac290d430250b2.setContent(html_56ecf3de8bca57df0d0022630e65918e);
+            
+        
+
+        marker_776e2277b295fc59eecabc31a6237158.bindPopup(popup_28d77842cc0ed960ffac290d430250b2)
+        ;
+
+        
+    
+    
+            var marker_9b63ec612eeeff112a5fcbc72c044bba = L.marker(
+                [36.1703581, -95.8477003],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_5c319d912cca413f3b8a842e54ba5138 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce7ecbba8e350dd33d263b454d413d0 = $(`<div id="html_dce7ecbba8e350dd33d263b454d413d0" style="width: 100.0%; height: 100.0%;">11381 E INDEPENDENCE ST, TULSA, OK 74116-2011 ROBERT BUTTRAM (REP)</div>`)[0];
+                popup_5c319d912cca413f3b8a842e54ba5138.setContent(html_dce7ecbba8e350dd33d263b454d413d0);
+            
+        
+
+        marker_9b63ec612eeeff112a5fcbc72c044bba.bindPopup(popup_5c319d912cca413f3b8a842e54ba5138)
+        ;
+
+        
+    
+    
+            var marker_1a30fe1ce0fe244fd6e82c87310b2575 = L.marker(
+                [36.1690323, -95.8479394],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_463f4a4042c9b057f22d473bb4ff28ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07c3988af8ccb7d285cf4f9a0cb9ab68 = $(`<div id="html_07c3988af8ccb7d285cf4f9a0cb9ab68" style="width: 100.0%; height: 100.0%;">11362 E INDEPENDENCE ST, TULSA, OK 74116-2011 JACK MCCALL (REP)</div>`)[0];
+                popup_463f4a4042c9b057f22d473bb4ff28ca.setContent(html_07c3988af8ccb7d285cf4f9a0cb9ab68);
+            
+        
+
+        marker_1a30fe1ce0fe244fd6e82c87310b2575.bindPopup(popup_463f4a4042c9b057f22d473bb4ff28ca)
+        ;
+
+        
+    
+    
+            var marker_e56879147d5a32062f740c92386ae644 = L.marker(
+                [36.1690323, -95.8479394],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_bfbfd13ae0759704da8da11103dfc249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95a204085ae5d3d0e0aac76e4d9b253c = $(`<div id="html_95a204085ae5d3d0e0aac76e4d9b253c" style="width: 100.0%; height: 100.0%;">11362 E INDEPENDENCE ST, TULSA, OK 74116-2011 JUDY MCCALL (REP)</div>`)[0];
+                popup_bfbfd13ae0759704da8da11103dfc249.setContent(html_95a204085ae5d3d0e0aac76e4d9b253c);
+            
+        
+
+        marker_e56879147d5a32062f740c92386ae644.bindPopup(popup_bfbfd13ae0759704da8da11103dfc249)
+        ;
+
+        
+    
+    
+            var marker_b7f06d7c5f3baeb3f4dc7384c8a2ea27 = L.marker(
+                [36.1690323, -95.8479394],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_2761f14fbd8857dd8dbe73d725d2bc7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d3314c7cdf73d7cff951a251e1c79e = $(`<div id="html_c3d3314c7cdf73d7cff951a251e1c79e" style="width: 100.0%; height: 100.0%;">11362 E INDEPENDENCE ST, TULSA, OK 74116-2011 LENNY MCCALL (DEM)</div>`)[0];
+                popup_2761f14fbd8857dd8dbe73d725d2bc7f.setContent(html_c3d3314c7cdf73d7cff951a251e1c79e);
+            
+        
+
+        marker_b7f06d7c5f3baeb3f4dc7384c8a2ea27.bindPopup(popup_2761f14fbd8857dd8dbe73d725d2bc7f)
+        ;
+
+        
+    
+    
+            var marker_01058d091316b2518be4ca7e32869dde = L.marker(
+                [36.1695195, -95.8495005],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_770e58f2a63bb4e0eec750381bafb89a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a58ba49cfd7c897fdb720d9a1d8c88 = $(`<div id="html_69a58ba49cfd7c897fdb720d9a1d8c88" style="width: 100.0%; height: 100.0%;">11352 E INDEPENDENCE ST, TULSA, OK 74116-2011 CLIFFORD MORRISON (REP)</div>`)[0];
+                popup_770e58f2a63bb4e0eec750381bafb89a.setContent(html_69a58ba49cfd7c897fdb720d9a1d8c88);
+            
+        
+
+        marker_01058d091316b2518be4ca7e32869dde.bindPopup(popup_770e58f2a63bb4e0eec750381bafb89a)
+        ;
+
+        
+    
+    
+            var marker_9ad048c8979cf87f576a3333ca3d4799 = L.marker(
+                [36.1695195, -95.8495005],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_bbe334dbee873b6a3acbe3616eb4608b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a95a3abf9de7a78da4158c450884d8f2 = $(`<div id="html_a95a3abf9de7a78da4158c450884d8f2" style="width: 100.0%; height: 100.0%;">11352 E INDEPENDENCE ST, TULSA, OK 74116-2011 JAMIE MORRISON (REP)</div>`)[0];
+                popup_bbe334dbee873b6a3acbe3616eb4608b.setContent(html_a95a3abf9de7a78da4158c450884d8f2);
+            
+        
+
+        marker_9ad048c8979cf87f576a3333ca3d4799.bindPopup(popup_bbe334dbee873b6a3acbe3616eb4608b)
+        ;
+
+        
+    
+    
+            var marker_ccc8a0367b190d0ddff966f66dbd615b = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_11daf3124307df1ca1a1968c215a58a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29aca7890dfe03b186252fedc4469ca4 = $(`<div id="html_29aca7890dfe03b186252fedc4469ca4" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD RM 214, TULSA, OK 74116-2001 ROBERT ROLLINS (REP)</div>`)[0];
+                popup_11daf3124307df1ca1a1968c215a58a3.setContent(html_29aca7890dfe03b186252fedc4469ca4);
+            
+        
+
+        marker_ccc8a0367b190d0ddff966f66dbd615b.bindPopup(popup_11daf3124307df1ca1a1968c215a58a3)
+        ;
+
+        
+    
+    
+            var marker_f14fc78ee7c98a918801e3b18f0cf126 = L.marker(
+                [36.1736377, -95.8468203],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_9f921305daa89b440049885c3c59f43c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3f11a63825add6277fd378e26d1cde = $(`<div id="html_2f3f11a63825add6277fd378e26d1cde" style="width: 100.0%; height: 100.0%;">11428 E NEWTON PL, TULSA, OK 74116-2015 AMY SALDEEN (REP)</div>`)[0];
+                popup_9f921305daa89b440049885c3c59f43c.setContent(html_2f3f11a63825add6277fd378e26d1cde);
+            
+        
+
+        marker_f14fc78ee7c98a918801e3b18f0cf126.bindPopup(popup_9f921305daa89b440049885c3c59f43c)
+        ;
+
+        
+    
+    
+            var marker_e46c2a37c0ad489dadfd03c09e7c2b2f = L.marker(
+                [36.1693795, -95.8540224],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_9ed6bf486cc61ef2a13eb28cc070f129 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9c50a239f20da704cadb826c195b22 = $(`<div id="html_6b9c50a239f20da704cadb826c195b22" style="width: 100.0%; height: 100.0%;">11130 E INDEPENDENCE ST, TULSA, OK 74116 BEVERLY GLEGHORN (DEM)</div>`)[0];
+                popup_9ed6bf486cc61ef2a13eb28cc070f129.setContent(html_6b9c50a239f20da704cadb826c195b22);
+            
+        
+
+        marker_e46c2a37c0ad489dadfd03c09e7c2b2f.bindPopup(popup_9ed6bf486cc61ef2a13eb28cc070f129)
+        ;
+
+        
+    
+    
+            var marker_7f39a817a4cd4627be0d4be5f72dc03b = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_11db396ec9f597c0e9c9192eaecdfd95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9a2b8ca6a1ae2589d824ee2055f1e02 = $(`<div id="html_c9a2b8ca6a1ae2589d824ee2055f1e02" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116 BRYAN WALKER (REP)</div>`)[0];
+                popup_11db396ec9f597c0e9c9192eaecdfd95.setContent(html_c9a2b8ca6a1ae2589d824ee2055f1e02);
+            
+        
+
+        marker_7f39a817a4cd4627be0d4be5f72dc03b.bindPopup(popup_11db396ec9f597c0e9c9192eaecdfd95)
+        ;
+
+        
+    
+    
+            var marker_49d6024c909ecf0f0f7dae7a40774a62 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_19b548f4e12f1e781c90906ad563c9d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b072c42f00af063817fde4776bd9ea5b = $(`<div id="html_b072c42f00af063817fde4776bd9ea5b" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 POSHA KING (IND)</div>`)[0];
+                popup_19b548f4e12f1e781c90906ad563c9d5.setContent(html_b072c42f00af063817fde4776bd9ea5b);
+            
+        
+
+        marker_49d6024c909ecf0f0f7dae7a40774a62.bindPopup(popup_19b548f4e12f1e781c90906ad563c9d5)
+        ;
+
+        
+    
+    
+            var marker_aa51dd833231566a25c49b7be88009be = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_402bb766d9d012b5d72309b39110c504 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc204af7f9815ac01917d352f29a9725 = $(`<div id="html_fc204af7f9815ac01917d352f29a9725" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD #136, TULSA, OK 74116 PAUL MCELLIGOTT (REP)</div>`)[0];
+                popup_402bb766d9d012b5d72309b39110c504.setContent(html_fc204af7f9815ac01917d352f29a9725);
+            
+        
+
+        marker_aa51dd833231566a25c49b7be88009be.bindPopup(popup_402bb766d9d012b5d72309b39110c504)
+        ;
+
+        
+    
+    
+            var marker_1897007d39178e0a007758c203684045 = L.marker(
+                [36.1703581, -95.8477003],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_9e8a7dd233e10791323279cb38a8e28c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8b964d130807c66c9b5f57e15d80e2 = $(`<div id="html_7d8b964d130807c66c9b5f57e15d80e2" style="width: 100.0%; height: 100.0%;">11381 E INDEPENDENCE ST, TULSA, OK 74116-2011 SHEILA BUTTRAM (REP)</div>`)[0];
+                popup_9e8a7dd233e10791323279cb38a8e28c.setContent(html_7d8b964d130807c66c9b5f57e15d80e2);
+            
+        
+
+        marker_1897007d39178e0a007758c203684045.bindPopup(popup_9e8a7dd233e10791323279cb38a8e28c)
+        ;
+
+        
+    
+    
+            var marker_fe56ea2e5f0bcc84568545d9bff3999e = L.marker(
+                [36.17246, -95.850278],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_03d6e8a60814f46bef466b911967cc65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50760ccac9a7b845cec45c415b8b6872 = $(`<div id="html_50760ccac9a7b845cec45c415b8b6872" style="width: 100.0%; height: 100.0%;">1225 N GARNETT RD, TULSA, OK 74116-2006 WILFRIEDE YARBROUGH (REP)</div>`)[0];
+                popup_03d6e8a60814f46bef466b911967cc65.setContent(html_50760ccac9a7b845cec45c415b8b6872);
+            
+        
+
+        marker_fe56ea2e5f0bcc84568545d9bff3999e.bindPopup(popup_03d6e8a60814f46bef466b911967cc65)
+        ;
+
+        
+    
+    
+            var marker_b6c1997746830cd6ffe3182b019f2905 = L.marker(
+                [36.17246, -95.850278],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_17cb0195a908b1bd8f528d99782a007c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a77be3419ff5803ffc17436752f7df2 = $(`<div id="html_7a77be3419ff5803ffc17436752f7df2" style="width: 100.0%; height: 100.0%;">1225 N GARNETT RD, TULSA, OK 74116-2006 LARRY YARBROUGH (REP)</div>`)[0];
+                popup_17cb0195a908b1bd8f528d99782a007c.setContent(html_7a77be3419ff5803ffc17436752f7df2);
+            
+        
+
+        marker_b6c1997746830cd6ffe3182b019f2905.bindPopup(popup_17cb0195a908b1bd8f528d99782a007c)
+        ;
+
+        
+    
+    
+            var marker_39578f5fecf413203691f6051e2ed99b = L.marker(
+                [36.17028020000001, -95.8492373],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_29fb9584fa86fa482a21bf2932b71ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f50239c9ff9d8b824f9221a486d99dba = $(`<div id="html_f50239c9ff9d8b824f9221a486d99dba" style="width: 100.0%; height: 100.0%;">11355 E INDEPENDENCE ST, TULSA, OK 74116-2011 REGINA OTERO (DEM)</div>`)[0];
+                popup_29fb9584fa86fa482a21bf2932b71ad3.setContent(html_f50239c9ff9d8b824f9221a486d99dba);
+            
+        
+
+        marker_39578f5fecf413203691f6051e2ed99b.bindPopup(popup_29fb9584fa86fa482a21bf2932b71ad3)
+        ;
+
+        
+    
+    
+            var marker_3e8ae429f2d8d961c28cf240360d5aeb = L.marker(
+                [36.1703584, -95.8488076],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_1e015660fdb030beee23fe2c04ee1057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_304b484285687077b865da52aa62aac3 = $(`<div id="html_304b484285687077b865da52aa62aac3" style="width: 100.0%; height: 100.0%;">11357 E INDEPENDENCE ST, TULSA, OK 74116-2011 NEAL BAKER (REP)</div>`)[0];
+                popup_1e015660fdb030beee23fe2c04ee1057.setContent(html_304b484285687077b865da52aa62aac3);
+            
+        
+
+        marker_3e8ae429f2d8d961c28cf240360d5aeb.bindPopup(popup_1e015660fdb030beee23fe2c04ee1057)
+        ;
+
+        
+    
+    
+            var marker_3107e445b1d4840ca3183f72e6ee815e = L.marker(
+                [36.1703584, -95.8488076],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_f83596774cdd5c7b83e10db8e129bdc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42057ed1dd3da4105f2fd56a33094112 = $(`<div id="html_42057ed1dd3da4105f2fd56a33094112" style="width: 100.0%; height: 100.0%;">11357 E INDEPENDENCE ST, TULSA, OK 74116-2011 WILMA BAKER (REP)</div>`)[0];
+                popup_f83596774cdd5c7b83e10db8e129bdc3.setContent(html_42057ed1dd3da4105f2fd56a33094112);
+            
+        
+
+        marker_3107e445b1d4840ca3183f72e6ee815e.bindPopup(popup_f83596774cdd5c7b83e10db8e129bdc3)
+        ;
+
+        
+    
+    
+            var marker_2319ab662444e9ebffae9e0e72e75bce = L.marker(
+                [36.1694516, -95.8476696],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_4be38b3e0caf18058ae8257528d33223 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91c43468878ffee807b8c91c94a1f5b8 = $(`<div id="html_91c43468878ffee807b8c91c94a1f5b8" style="width: 100.0%; height: 100.0%;">11364 E INDEPENDENCE ST, TULSA, OK 74116-2011 ELLEN MCDONALD (DEM)</div>`)[0];
+                popup_4be38b3e0caf18058ae8257528d33223.setContent(html_91c43468878ffee807b8c91c94a1f5b8);
+            
+        
+
+        marker_2319ab662444e9ebffae9e0e72e75bce.bindPopup(popup_4be38b3e0caf18058ae8257528d33223)
+        ;
+
+        
+    
+    
+            var marker_7b49e164d7e4b4fc33f012bf4f97d937 = L.marker(
+                [36.1741437, -95.8471891],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_0d65788d76662e3f2bebfdabc33345d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9594a6656bbef88ce2e5d6b178cabee = $(`<div id="html_b9594a6656bbef88ce2e5d6b178cabee" style="width: 100.0%; height: 100.0%;">11423 E NEWTON PL, TULSA, OK 74116-2099 ELIJAH HACKATHORN (IND)</div>`)[0];
+                popup_0d65788d76662e3f2bebfdabc33345d9.setContent(html_b9594a6656bbef88ce2e5d6b178cabee);
+            
+        
+
+        marker_7b49e164d7e4b4fc33f012bf4f97d937.bindPopup(popup_0d65788d76662e3f2bebfdabc33345d9)
+        ;
+
+        
+    
+    
+            var marker_e1fe09a431521de4a0f645e5db8d61cf = L.marker(
+                [36.1694779, -95.8528327],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_eddb8ce63ab2dcf3087cf21de404547a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a342fdede304768fe74bce91e138a11a = $(`<div id="html_a342fdede304768fe74bce91e138a11a" style="width: 100.0%; height: 100.0%;">11208 E INDEPENDENCE ST, TULSA, OK 74116-5607 RICHARD HAVENS (REP)</div>`)[0];
+                popup_eddb8ce63ab2dcf3087cf21de404547a.setContent(html_a342fdede304768fe74bce91e138a11a);
+            
+        
+
+        marker_e1fe09a431521de4a0f645e5db8d61cf.bindPopup(popup_eddb8ce63ab2dcf3087cf21de404547a)
+        ;
+
+        
+    
+    
+            var marker_7762a3c0472516fef5346d412272850e = L.marker(
+                [36.1736529, -95.8495776],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_384729724e15dd6aa7b1005ad316461a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fea42a8c8e7a3f9a21bb653bf6ea135d = $(`<div id="html_fea42a8c8e7a3f9a21bb653bf6ea135d" style="width: 100.0%; height: 100.0%;">11350 E NEWTON PL, TULSA, OK 74116-2013 TARA ALLEN (DEM)</div>`)[0];
+                popup_384729724e15dd6aa7b1005ad316461a.setContent(html_fea42a8c8e7a3f9a21bb653bf6ea135d);
+            
+        
+
+        marker_7762a3c0472516fef5346d412272850e.bindPopup(popup_384729724e15dd6aa7b1005ad316461a)
+        ;
+
+        
+    
+    
+            var marker_1fc2a794ea39d50601069b865a5a638e = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_bb4c230c00ceaabb469bce525d4d65aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9adc890aae0486687bd032a21be5ae15 = $(`<div id="html_9adc890aae0486687bd032a21be5ae15" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD RM 127, TULSA, OK 74116-2001 EVALEEN HILL (DEM)</div>`)[0];
+                popup_bb4c230c00ceaabb469bce525d4d65aa.setContent(html_9adc890aae0486687bd032a21be5ae15);
+            
+        
+
+        marker_1fc2a794ea39d50601069b865a5a638e.bindPopup(popup_bb4c230c00ceaabb469bce525d4d65aa)
+        ;
+
+        
+    
+    
+            var marker_855bdea31b0fa148aca439333ba9f684 = L.marker(
+                [36.1741246, -95.8482416],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_57ea4a9541a78a92afdb408a9525d762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f00c2d28350b30d8145eba36aefcb053 = $(`<div id="html_f00c2d28350b30d8145eba36aefcb053" style="width: 100.0%; height: 100.0%;">11365 E NEWTON PL, TULSA, OK 74116-2014 MELINDA SMITH (REP)</div>`)[0];
+                popup_57ea4a9541a78a92afdb408a9525d762.setContent(html_f00c2d28350b30d8145eba36aefcb053);
+            
+        
+
+        marker_855bdea31b0fa148aca439333ba9f684.bindPopup(popup_57ea4a9541a78a92afdb408a9525d762)
+        ;
+
+        
+    
+    
+            var marker_27fbde0a338180f0dbcca4ebd9e0ffc4 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_cd66251c123362415fceaafca3e7a2a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81902e55aa1e5b2c6f9b609199f7bfae = $(`<div id="html_81902e55aa1e5b2c6f9b609199f7bfae" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD APT 232, TULSA, OK 74116-2001 LAWRENCE JENSEN (DEM)</div>`)[0];
+                popup_cd66251c123362415fceaafca3e7a2a9.setContent(html_81902e55aa1e5b2c6f9b609199f7bfae);
+            
+        
+
+        marker_27fbde0a338180f0dbcca4ebd9e0ffc4.bindPopup(popup_cd66251c123362415fceaafca3e7a2a9)
+        ;
+
+        
+    
+    
+            var marker_91b62f870e721c912adc47e7e3699816 = L.marker(
+                [36.174109, -95.8495683],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_a3dbe416f68fc35e18c629475f4d68e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ca0e8ad20c248fe10848ad9cf937d16 = $(`<div id="html_2ca0e8ad20c248fe10848ad9cf937d16" style="width: 100.0%; height: 100.0%;">11355 E NEWTON PL, TULSA, OK 74116-2014 PAUL WOOD (IND)</div>`)[0];
+                popup_a3dbe416f68fc35e18c629475f4d68e8.setContent(html_2ca0e8ad20c248fe10848ad9cf937d16);
+            
+        
+
+        marker_91b62f870e721c912adc47e7e3699816.bindPopup(popup_a3dbe416f68fc35e18c629475f4d68e8)
+        ;
+
+        
+    
+    
+            var marker_c166337ec4365e6c33a95f70f302a41c = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_44fe3a9823ef9f6f5b31e6b380db30c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_745880d615d60a8b9fc99ff5781db3ef = $(`<div id="html_745880d615d60a8b9fc99ff5781db3ef" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116 JEFFREY HILL (DEM)</div>`)[0];
+                popup_44fe3a9823ef9f6f5b31e6b380db30c2.setContent(html_745880d615d60a8b9fc99ff5781db3ef);
+            
+        
+
+        marker_c166337ec4365e6c33a95f70f302a41c.bindPopup(popup_44fe3a9823ef9f6f5b31e6b380db30c2)
+        ;
+
+        
+    
+    
+            var marker_7f5e076221b1c52235676b8342db426f = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_84fafe803761cd200af9ff5a81edb37c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d0008b7c7300233d88b88948c6e8a2 = $(`<div id="html_e8d0008b7c7300233d88b88948c6e8a2" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD APT 136, TULSA, OK 74116 PERILYNNE MCELLIGOT (REP)</div>`)[0];
+                popup_84fafe803761cd200af9ff5a81edb37c.setContent(html_e8d0008b7c7300233d88b88948c6e8a2);
+            
+        
+
+        marker_7f5e076221b1c52235676b8342db426f.bindPopup(popup_84fafe803761cd200af9ff5a81edb37c)
+        ;
+
+        
+    
+    
+            var marker_b506cee68aa75fd649c113533e1288e2 = L.marker(
+                [36.1736394, -95.8489502],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_d479c1116d3a82259904835f4a773db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e04c5c323cbeeefa75685ac5df8d70 = $(`<div id="html_47e04c5c323cbeeefa75685ac5df8d70" style="width: 100.0%; height: 100.0%;">11354 E NEWTON PL, TULSA, OK 74116-2013 MEGAN BARKER (IND)</div>`)[0];
+                popup_d479c1116d3a82259904835f4a773db9.setContent(html_47e04c5c323cbeeefa75685ac5df8d70);
+            
+        
+
+        marker_b506cee68aa75fd649c113533e1288e2.bindPopup(popup_d479c1116d3a82259904835f4a773db9)
+        ;
+
+        
+    
+    
+            var marker_5199bbcc53e436f193730f7cd02e7f86 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_f39ddd0f7130acf684b1f5674bee76b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a1959749f15b3656894604c6f685ac3 = $(`<div id="html_1a1959749f15b3656894604c6f685ac3" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116 JAMES REINERTSON (IND)</div>`)[0];
+                popup_f39ddd0f7130acf684b1f5674bee76b7.setContent(html_1a1959749f15b3656894604c6f685ac3);
+            
+        
+
+        marker_5199bbcc53e436f193730f7cd02e7f86.bindPopup(popup_f39ddd0f7130acf684b1f5674bee76b7)
+        ;
+
+        
+    
+    
+            var marker_35b4e2710c9b5108541e5627bbc3ce94 = L.marker(
+                [36.1703584, -95.8488076],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_6c93f16472349e70bcc7919349e8d86d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccb979cda75e9c0ecb4ce48207215b9c = $(`<div id="html_ccb979cda75e9c0ecb4ce48207215b9c" style="width: 100.0%; height: 100.0%;">11357 E INDEPENDENCE ST 1/2, TULSA, OK 74116-2011 PATRICK KILLGORE (REP)</div>`)[0];
+                popup_6c93f16472349e70bcc7919349e8d86d.setContent(html_ccb979cda75e9c0ecb4ce48207215b9c);
+            
+        
+
+        marker_35b4e2710c9b5108541e5627bbc3ce94.bindPopup(popup_6c93f16472349e70bcc7919349e8d86d)
+        ;
+
+        
+    
+    
+            var marker_6474718472d8cca3eb5793751e564804 = L.marker(
+                [36.1704168, -95.8485446],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_bb341df861afaca9905dc564c32345f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20b07d6a06d7268b4b085143714a91dc = $(`<div id="html_20b07d6a06d7268b4b085143714a91dc" style="width: 100.0%; height: 100.0%;">11359 E INDEPENDENCE ST, TULSA, OK 74116-2011 BILL PAPE (REP)</div>`)[0];
+                popup_bb341df861afaca9905dc564c32345f1.setContent(html_20b07d6a06d7268b4b085143714a91dc);
+            
+        
+
+        marker_6474718472d8cca3eb5793751e564804.bindPopup(popup_bb341df861afaca9905dc564c32345f1)
+        ;
+
+        
+    
+    
+            var marker_cb0c6196048a9a7ee009a4881dfaf161 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_71475a69cf59a7de4751c7719e3f4b9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_843f093ec603d12f0932b69180f193c1 = $(`<div id="html_843f093ec603d12f0932b69180f193c1" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 STEPHANIE SWINTEK (REP)</div>`)[0];
+                popup_71475a69cf59a7de4751c7719e3f4b9b.setContent(html_843f093ec603d12f0932b69180f193c1);
+            
+        
+
+        marker_cb0c6196048a9a7ee009a4881dfaf161.bindPopup(popup_71475a69cf59a7de4751c7719e3f4b9b)
+        ;
+
+        
+    
+    
+            var marker_1112c0f7b5d6b3a4590d7a4e8d00c5a2 = L.marker(
+                [36.1741752, -95.8475835],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_8955e65cefcca3bb0a33a47837f0bc87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3528388da7dcdba4196a9c560dc2d3f2 = $(`<div id="html_3528388da7dcdba4196a9c560dc2d3f2" style="width: 100.0%; height: 100.0%;">11419 E NEWTON PL, TULSA, OK 74116 AMY BOATRIGHT (IND)</div>`)[0];
+                popup_8955e65cefcca3bb0a33a47837f0bc87.setContent(html_3528388da7dcdba4196a9c560dc2d3f2);
+            
+        
+
+        marker_1112c0f7b5d6b3a4590d7a4e8d00c5a2.bindPopup(popup_8955e65cefcca3bb0a33a47837f0bc87)
+        ;
+
+        
+    
+    
+            var marker_4bddb76af30e1981f755976458238f55 = L.marker(
+                [36.1695246, -95.8492557],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_8174d3713cc4ac6d6f171b8416ea6550 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01fcab082f2c9279b2e9948c05b2948 = $(`<div id="html_f01fcab082f2c9279b2e9948c05b2948" style="width: 100.0%; height: 100.0%;">11354 E INDEPENDENCE ST, TULSA, OK 74116-2011 EVA PEREZ (IND)</div>`)[0];
+                popup_8174d3713cc4ac6d6f171b8416ea6550.setContent(html_f01fcab082f2c9279b2e9948c05b2948);
+            
+        
+
+        marker_4bddb76af30e1981f755976458238f55.bindPopup(popup_8174d3713cc4ac6d6f171b8416ea6550)
+        ;
+
+        
+    
+    
+            var marker_efe4291ee8bf7f634b372d30a47a3079 = L.marker(
+                [36.1741246, -95.8482416],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_060f982762d86dd9ce09e8ac74d556cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9267995e1c6206b6d9d35f871e1d83ef = $(`<div id="html_9267995e1c6206b6d9d35f871e1d83ef" style="width: 100.0%; height: 100.0%;">11365 E NEWTON PL, TULSA, OK 74116-2014 KLAIRE PINSON (REP)</div>`)[0];
+                popup_060f982762d86dd9ce09e8ac74d556cf.setContent(html_9267995e1c6206b6d9d35f871e1d83ef);
+            
+        
+
+        marker_efe4291ee8bf7f634b372d30a47a3079.bindPopup(popup_060f982762d86dd9ce09e8ac74d556cf)
+        ;
+
+        
+    
+    
+            var marker_96649239901687426bfc55e0ff88bcd3 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_a2a8ef6d0923d4f97039c239697d9f71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41ea01ccc4f944e78f8d5a84a8eb8711 = $(`<div id="html_41ea01ccc4f944e78f8d5a84a8eb8711" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 LARRY HERDER (REP)</div>`)[0];
+                popup_a2a8ef6d0923d4f97039c239697d9f71.setContent(html_41ea01ccc4f944e78f8d5a84a8eb8711);
+            
+        
+
+        marker_96649239901687426bfc55e0ff88bcd3.bindPopup(popup_a2a8ef6d0923d4f97039c239697d9f71)
+        ;
+
+        
+    
+    
+            var marker_877401828ccf57c41d92dd1509f96dd0 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_44f6b6413b9544aad32f19ec142b3767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b598678ea96c9801cf8c98504f5c4a9 = $(`<div id="html_8b598678ea96c9801cf8c98504f5c4a9" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 ISRAEL HERDER (REP)</div>`)[0];
+                popup_44f6b6413b9544aad32f19ec142b3767.setContent(html_8b598678ea96c9801cf8c98504f5c4a9);
+            
+        
+
+        marker_877401828ccf57c41d92dd1509f96dd0.bindPopup(popup_44f6b6413b9544aad32f19ec142b3767)
+        ;
+
+        
+    
+    
+            var marker_587a6285cf133ce6bccee2de736090b9 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_27acb3a4d880945a949a92310bf0f730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8cbacbbc76dc5eb4f4684fd582beefd = $(`<div id="html_d8cbacbbc76dc5eb4f4684fd582beefd" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 MICHELLE BROWN (REP)</div>`)[0];
+                popup_27acb3a4d880945a949a92310bf0f730.setContent(html_d8cbacbbc76dc5eb4f4684fd582beefd);
+            
+        
+
+        marker_587a6285cf133ce6bccee2de736090b9.bindPopup(popup_27acb3a4d880945a949a92310bf0f730)
+        ;
+
+        
+    
+    
+            var marker_9bd1a6ef17ee987c1e3228af9b710fe6 = L.marker(
+                [36.1741539, -95.8488711],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_0d12650f1f89e99a8967e4320d9cbe8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0181e2a3dd840b5af48ce6b50592b377 = $(`<div id="html_0181e2a3dd840b5af48ce6b50592b377" style="width: 100.0%; height: 100.0%;">11361 E NEWTON PL, TULSA, OK 74116 MICHAEL BARKER (REP)</div>`)[0];
+                popup_0d12650f1f89e99a8967e4320d9cbe8a.setContent(html_0181e2a3dd840b5af48ce6b50592b377);
+            
+        
+
+        marker_9bd1a6ef17ee987c1e3228af9b710fe6.bindPopup(popup_0d12650f1f89e99a8967e4320d9cbe8a)
+        ;
+
+        
+    
+    
+            var marker_d4c84c7c1d8b43da17e5db590a71363d = L.marker(
+                [36.1741539, -95.8488711],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_555c3d754484f39b1be22b241fb283d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5d25b2c8cfcee900e44d6bc3a89c061 = $(`<div id="html_a5d25b2c8cfcee900e44d6bc3a89c061" style="width: 100.0%; height: 100.0%;">11361 E NEWTON PL, TULSA, OK 74116-2014 TARI BIXLER (REP)</div>`)[0];
+                popup_555c3d754484f39b1be22b241fb283d3.setContent(html_a5d25b2c8cfcee900e44d6bc3a89c061);
+            
+        
+
+        marker_d4c84c7c1d8b43da17e5db590a71363d.bindPopup(popup_555c3d754484f39b1be22b241fb283d3)
+        ;
+
+        
+    
+    
+            var marker_2b7e79390f1c5b2814240665e40359f0 = L.marker(
+                [36.1736529, -95.8495776],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_63119ece98e88a03324581dc7e909581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d92ae8aaa5898fe1dbcfd6effc046b = $(`<div id="html_f8d92ae8aaa5898fe1dbcfd6effc046b" style="width: 100.0%; height: 100.0%;">11350 E NEWTON PL, TULSA, OK 74116-2013 BRENDA ALLEN (DEM)</div>`)[0];
+                popup_63119ece98e88a03324581dc7e909581.setContent(html_f8d92ae8aaa5898fe1dbcfd6effc046b);
+            
+        
+
+        marker_2b7e79390f1c5b2814240665e40359f0.bindPopup(popup_63119ece98e88a03324581dc7e909581)
+        ;
+
+        
+    
+    
+            var marker_8f6e2f8f80685b271546ed0ac5172011 = L.marker(
+                [36.1741437, -95.8471891],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_d4a5992505ac4bb194d3a6ef34b5c6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_566b2ec2cdc9471c20f5e217a51b7045 = $(`<div id="html_566b2ec2cdc9471c20f5e217a51b7045" style="width: 100.0%; height: 100.0%;">11423 E NEWTON PL, TULSA, OK 74116-2099 JACK HACKATHORN (DEM)</div>`)[0];
+                popup_d4a5992505ac4bb194d3a6ef34b5c6a4.setContent(html_566b2ec2cdc9471c20f5e217a51b7045);
+            
+        
+
+        marker_8f6e2f8f80685b271546ed0ac5172011.bindPopup(popup_d4a5992505ac4bb194d3a6ef34b5c6a4)
+        ;
+
+        
+    
+    
+            var marker_ee09f9484d9876b72eb8448c7dbb822c = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_67a2b79eec1cd5495999bac2330ad5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb5ae66811ec0fc4b174a885dd4fa76 = $(`<div id="html_bbb5ae66811ec0fc4b174a885dd4fa76" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD APT 211, TULSA, OK 74116-2001 FARRELL CURTSINGER (REP)</div>`)[0];
+                popup_67a2b79eec1cd5495999bac2330ad5c8.setContent(html_bbb5ae66811ec0fc4b174a885dd4fa76);
+            
+        
+
+        marker_ee09f9484d9876b72eb8448c7dbb822c.bindPopup(popup_67a2b79eec1cd5495999bac2330ad5c8)
+        ;
+
+        
+    
+    
+            var marker_89bd5aaefe8c0cd7bacdb5c367490e1f = L.marker(
+                [36.169366, -95.8537863],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_183484585887ebdb12314adb6af04d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5183009e99c28c885c81eabd9eff2496 = $(`<div id="html_5183009e99c28c885c81eabd9eff2496" style="width: 100.0%; height: 100.0%;">11134 E INDEPENDENCE ST, TULSA, OK 74116-5605 KIMBERLY BIGELOW (DEM)</div>`)[0];
+                popup_183484585887ebdb12314adb6af04d3e.setContent(html_5183009e99c28c885c81eabd9eff2496);
+            
+        
+
+        marker_89bd5aaefe8c0cd7bacdb5c367490e1f.bindPopup(popup_183484585887ebdb12314adb6af04d3e)
+        ;
+
+        
+    
+    
+            var marker_cfe9c1fcd7e061662aada4408febf9e0 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_f160d8be8105cfbc6a34091264e4129d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a6391577acff82d870328028efc2bb1 = $(`<div id="html_9a6391577acff82d870328028efc2bb1" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 RUBEN DE LANY (REP)</div>`)[0];
+                popup_f160d8be8105cfbc6a34091264e4129d.setContent(html_9a6391577acff82d870328028efc2bb1);
+            
+        
+
+        marker_cfe9c1fcd7e061662aada4408febf9e0.bindPopup(popup_f160d8be8105cfbc6a34091264e4129d)
+        ;
+
+        
+    
+    
+            var marker_00b6e150827a7c3e1974b58235f245af = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_9dd6b1293d9f222296a60e57bde86178 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c638bb4c1d817a55a02d6ff932a3270c = $(`<div id="html_c638bb4c1d817a55a02d6ff932a3270c" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD APT 167, TULSA, OK 74116-2001 SHASTA SCHENK (LIB)</div>`)[0];
+                popup_9dd6b1293d9f222296a60e57bde86178.setContent(html_c638bb4c1d817a55a02d6ff932a3270c);
+            
+        
+
+        marker_00b6e150827a7c3e1974b58235f245af.bindPopup(popup_9dd6b1293d9f222296a60e57bde86178)
+        ;
+
+        
+    
+    
+            var marker_7ebdf77f725b8d8c96fce147d17199a3 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_2e3b20e33dad3c5cfdb1e956bf36f780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5ce2f58ac5048765c1a1ef0ff8b028 = $(`<div id="html_1e5ce2f58ac5048765c1a1ef0ff8b028" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 RALPH FISHER (IND)</div>`)[0];
+                popup_2e3b20e33dad3c5cfdb1e956bf36f780.setContent(html_1e5ce2f58ac5048765c1a1ef0ff8b028);
+            
+        
+
+        marker_7ebdf77f725b8d8c96fce147d17199a3.bindPopup(popup_2e3b20e33dad3c5cfdb1e956bf36f780)
+        ;
+
+        
+    
+    
+            var marker_e473170f129266933549703b12f562e3 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_cb8f735e2dd7503877c05648e9f1becd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef7318289d3e6b839dc7c239492913e4 = $(`<div id="html_ef7318289d3e6b839dc7c239492913e4" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 JENNIFER WOODCOCK (DEM)</div>`)[0];
+                popup_cb8f735e2dd7503877c05648e9f1becd.setContent(html_ef7318289d3e6b839dc7c239492913e4);
+            
+        
+
+        marker_e473170f129266933549703b12f562e3.bindPopup(popup_cb8f735e2dd7503877c05648e9f1becd)
+        ;
+
+        
+    
+    
+            var marker_545e71c0084033f5a7884a0c8bfe73ce = L.marker(
+                [36.1736353, -95.8478522],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_f186a2cd9c2220f3782ca4e0505aa47b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7da92b479b4d9acb75d3d701f0fc879a = $(`<div id="html_7da92b479b4d9acb75d3d701f0fc879a" style="width: 100.0%; height: 100.0%;">11416 E NEWTON PL, TULSA, OK 74116-2015 BRANDON ANDERSON (IND)</div>`)[0];
+                popup_f186a2cd9c2220f3782ca4e0505aa47b.setContent(html_7da92b479b4d9acb75d3d701f0fc879a);
+            
+        
+
+        marker_545e71c0084033f5a7884a0c8bfe73ce.bindPopup(popup_f186a2cd9c2220f3782ca4e0505aa47b)
+        ;
+
+        
+    
+    
+            var marker_838ceeeb25a9a8ccb2d87f4e01f6fcc8 = L.marker(
+                [36.1741246, -95.8482416],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_a41b44969ad27580a6210240d4db5ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f0b53f9878cdcd99d04aaea10e98e95 = $(`<div id="html_9f0b53f9878cdcd99d04aaea10e98e95" style="width: 100.0%; height: 100.0%;">11365 E NEWTON PL, TULSA, OK 74116-2014 KATHRYNE PINSON (REP)</div>`)[0];
+                popup_a41b44969ad27580a6210240d4db5ae3.setContent(html_9f0b53f9878cdcd99d04aaea10e98e95);
+            
+        
+
+        marker_838ceeeb25a9a8ccb2d87f4e01f6fcc8.bindPopup(popup_a41b44969ad27580a6210240d4db5ae3)
+        ;
+
+        
+    
+    
+            var marker_2e8e1a4ae82f6b2799219bb54b47dc81 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_cfd43c535a861536f31498e1c06eb407 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f95e87a4a25985390eee25f2e3fab667 = $(`<div id="html_f95e87a4a25985390eee25f2e3fab667" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD # 258, TULSA, OK 74116-2001 JEROME KING (IND)</div>`)[0];
+                popup_cfd43c535a861536f31498e1c06eb407.setContent(html_f95e87a4a25985390eee25f2e3fab667);
+            
+        
+
+        marker_2e8e1a4ae82f6b2799219bb54b47dc81.bindPopup(popup_cfd43c535a861536f31498e1c06eb407)
+        ;
+
+        
+    
+    
+            var marker_0635f78f2643ab5005d473c1c97c9aeb = L.marker(
+                [36.1681051, -95.8527105],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_0f874ed30b2899a8dd0a2fdcf676299f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_835c99fe0eba597a656432e97bb4556f = $(`<div id="html_835c99fe0eba597a656432e97bb4556f" style="width: 100.0%; height: 100.0%;">1016 N GARNETT RD RM 111, TULSA, OK 74116-2041 CRYSTAL JARRETT (REP)</div>`)[0];
+                popup_0f874ed30b2899a8dd0a2fdcf676299f.setContent(html_835c99fe0eba597a656432e97bb4556f);
+            
+        
+
+        marker_0635f78f2643ab5005d473c1c97c9aeb.bindPopup(popup_0f874ed30b2899a8dd0a2fdcf676299f)
+        ;
+
+        
+    
+    
+            var marker_861612408bb03075f431ff92b9d74d88 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_ff4109c24e017a1b51615cb4a566df92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dbe758c9c128a46ec4d77b1c4020e53 = $(`<div id="html_2dbe758c9c128a46ec4d77b1c4020e53" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 JOVAN BENNETT (IND)</div>`)[0];
+                popup_ff4109c24e017a1b51615cb4a566df92.setContent(html_2dbe758c9c128a46ec4d77b1c4020e53);
+            
+        
+
+        marker_861612408bb03075f431ff92b9d74d88.bindPopup(popup_ff4109c24e017a1b51615cb4a566df92)
+        ;
+
+        
+    
+    
+            var marker_60edbbea48e4759b5594f41cb28c3063 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_5108550e5b9363c87cdac25467f39139 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bb5aead4d8d3cae7d303193e3f82229 = $(`<div id="html_4bb5aead4d8d3cae7d303193e3f82229" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 ALEXANDER CHOATE (IND)</div>`)[0];
+                popup_5108550e5b9363c87cdac25467f39139.setContent(html_4bb5aead4d8d3cae7d303193e3f82229);
+            
+        
+
+        marker_60edbbea48e4759b5594f41cb28c3063.bindPopup(popup_5108550e5b9363c87cdac25467f39139)
+        ;
+
+        
+    
+    
+            var marker_0914392ac28ab04cff3217390d78f80f = L.marker(
+                [36.1681051, -95.8527105],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_792b5e64f3eb015889f0d1faef5961d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5144c3b0622ea66d333e618cd64f76a0 = $(`<div id="html_5144c3b0622ea66d333e618cd64f76a0" style="width: 100.0%; height: 100.0%;">1016 N GARNETT RD UNIT A, TULSA, OK 74116-2042 THOMAS BREWER (LIB)</div>`)[0];
+                popup_792b5e64f3eb015889f0d1faef5961d8.setContent(html_5144c3b0622ea66d333e618cd64f76a0);
+            
+        
+
+        marker_0914392ac28ab04cff3217390d78f80f.bindPopup(popup_792b5e64f3eb015889f0d1faef5961d8)
+        ;
+
+        
+    
+    
+            var marker_df1560cf6a2c646996f6623ead93134e = L.marker(
+                [36.1681051, -95.8527105],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_967d9df4f187771e43ce589943723006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d9305b4ee16a1b643da8f2b6bfc023f = $(`<div id="html_7d9305b4ee16a1b643da8f2b6bfc023f" style="width: 100.0%; height: 100.0%;">1016 N GARNETT RD APT 122, TULSA, OK 74116-2041 SAMARA JONES (IND)</div>`)[0];
+                popup_967d9df4f187771e43ce589943723006.setContent(html_7d9305b4ee16a1b643da8f2b6bfc023f);
+            
+        
+
+        marker_df1560cf6a2c646996f6623ead93134e.bindPopup(popup_967d9df4f187771e43ce589943723006)
+        ;
+
+        
+    
+    
+            var marker_befd65b5ea0402c0b673ff6d0981a507 = L.marker(
+                [36.1741539, -95.8488711],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_a8b8507d9ba220b5a765f59efffba83a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c95000693ac87825207248748810cc7 = $(`<div id="html_3c95000693ac87825207248748810cc7" style="width: 100.0%; height: 100.0%;">11361 E NEWTON PL, TULSA, OK 74116-2014 GEORGE HARRIS (REP)</div>`)[0];
+                popup_a8b8507d9ba220b5a765f59efffba83a.setContent(html_3c95000693ac87825207248748810cc7);
+            
+        
+
+        marker_befd65b5ea0402c0b673ff6d0981a507.bindPopup(popup_a8b8507d9ba220b5a765f59efffba83a)
+        ;
+
+        
+    
+    
+            var marker_b09ce32e6b9639114f8c58bc60346db5 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_2f73cd5d35c5892d83a7d580e598f700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_114ff93a93ceeaa1a0290cb3fe8412a6 = $(`<div id="html_114ff93a93ceeaa1a0290cb3fe8412a6" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD APT 278, TULSA, OK 74116-2001 JORDAN SPUNAUGLE (REP)</div>`)[0];
+                popup_2f73cd5d35c5892d83a7d580e598f700.setContent(html_114ff93a93ceeaa1a0290cb3fe8412a6);
+            
+        
+
+        marker_b09ce32e6b9639114f8c58bc60346db5.bindPopup(popup_2f73cd5d35c5892d83a7d580e598f700)
+        ;
+
+        
+    
+    
+            var marker_b736e8bcc3d154b15e01bb0f39f4f500 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_ca6a07efc6e42d4b2f0b7d6cf76a2a5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb8fa78c7a456454748aed89fad3dfef = $(`<div id="html_bb8fa78c7a456454748aed89fad3dfef" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD RM 266, TULSA, OK 74116-2001 BRETT CLOPP (REP)</div>`)[0];
+                popup_ca6a07efc6e42d4b2f0b7d6cf76a2a5d.setContent(html_bb8fa78c7a456454748aed89fad3dfef);
+            
+        
+
+        marker_b736e8bcc3d154b15e01bb0f39f4f500.bindPopup(popup_ca6a07efc6e42d4b2f0b7d6cf76a2a5d)
+        ;
+
+        
+    
+    
+            var marker_d5a3c76f5e285f11d3b0704ea974d2e1 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_2543d560dee12b8651a43b2dddeffa33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b34d00d2e3045c16d127de635fc42b0 = $(`<div id="html_4b34d00d2e3045c16d127de635fc42b0" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 CHRISTIAN MCELLIGOTT (REP)</div>`)[0];
+                popup_2543d560dee12b8651a43b2dddeffa33.setContent(html_4b34d00d2e3045c16d127de635fc42b0);
+            
+        
+
+        marker_d5a3c76f5e285f11d3b0704ea974d2e1.bindPopup(popup_2543d560dee12b8651a43b2dddeffa33)
+        ;
+
+        
+    
+    
+            var marker_a5a5f2c9b299a2a3247531cc2e4712c3 = L.marker(
+                [36.1736353, -95.8478522],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_766b90523b29c5272710a956a3074bd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2bba505f657b39a3e4673a46a5661a6 = $(`<div id="html_e2bba505f657b39a3e4673a46a5661a6" style="width: 100.0%; height: 100.0%;">11416 E NEWTON PL, TULSA, OK 74116-2015 ANTHONY COSSAIRT (DEM)</div>`)[0];
+                popup_766b90523b29c5272710a956a3074bd4.setContent(html_e2bba505f657b39a3e4673a46a5661a6);
+            
+        
+
+        marker_a5a5f2c9b299a2a3247531cc2e4712c3.bindPopup(popup_766b90523b29c5272710a956a3074bd4)
+        ;
+
+        
+    
+    
+            var marker_0665da4d92e9aba7e1be33f76ff7f496 = L.marker(
+                [36.1681051, -95.8527105],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_c56231c0e49982cbb329c580e53a2324 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_419bf297ed64a2a061b9cc6dc09ebbea = $(`<div id="html_419bf297ed64a2a061b9cc6dc09ebbea" style="width: 100.0%; height: 100.0%;">1016 N GARNETT RD, TULSA, OK 74116-2041 AVERY WALTERS (IND)</div>`)[0];
+                popup_c56231c0e49982cbb329c580e53a2324.setContent(html_419bf297ed64a2a061b9cc6dc09ebbea);
+            
+        
+
+        marker_0665da4d92e9aba7e1be33f76ff7f496.bindPopup(popup_c56231c0e49982cbb329c580e53a2324)
+        ;
+
+        
+    
+    
+            var marker_efa17b344cafb4bcd0710367c7bcd44b = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_8ac01479c0f526b661effa7c851b7fbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c222b8b32ee38f90d10461896775cd5 = $(`<div id="html_0c222b8b32ee38f90d10461896775cd5" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 ANTHONY HYDE (IND)</div>`)[0];
+                popup_8ac01479c0f526b661effa7c851b7fbe.setContent(html_0c222b8b32ee38f90d10461896775cd5);
+            
+        
+
+        marker_efa17b344cafb4bcd0710367c7bcd44b.bindPopup(popup_8ac01479c0f526b661effa7c851b7fbe)
+        ;
+
+        
+    
+    
+            var marker_048a7ca8b2b07001c03fe7e2642df96c = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_5c7d07b35bfb1c28f1b1b9dc3ffe3200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6468a4819529dab9e3ec3c505d2d8b = $(`<div id="html_3d6468a4819529dab9e3ec3c505d2d8b" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 LYDIA MERRITT (DEM)</div>`)[0];
+                popup_5c7d07b35bfb1c28f1b1b9dc3ffe3200.setContent(html_3d6468a4819529dab9e3ec3c505d2d8b);
+            
+        
+
+        marker_048a7ca8b2b07001c03fe7e2642df96c.bindPopup(popup_5c7d07b35bfb1c28f1b1b9dc3ffe3200)
+        ;
+
+        
+    
+    
+            var marker_66cf53359446324c2d48fbc3addc5845 = L.marker(
+                [36.1681051, -95.8527105],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_0e637ec3ae63c07afb147703ceae12f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df48d87a103a80be252f125c18425692 = $(`<div id="html_df48d87a103a80be252f125c18425692" style="width: 100.0%; height: 100.0%;">1016 N GARNETT RD, TULSA, OK 74116 RODNEY AUSTIN (IND)</div>`)[0];
+                popup_0e637ec3ae63c07afb147703ceae12f8.setContent(html_df48d87a103a80be252f125c18425692);
+            
+        
+
+        marker_66cf53359446324c2d48fbc3addc5845.bindPopup(popup_0e637ec3ae63c07afb147703ceae12f8)
+        ;
+
+        
+    
+    
+            var marker_5b555180ead5490127c45b175b46b18e = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_5cab928f70a4f25ee96854d651b7477b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7899c1242cf2bc234db7db43efbe5ff3 = $(`<div id="html_7899c1242cf2bc234db7db43efbe5ff3" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD RM 220, TULSA, OK 74116-2001 SEAN CHAPMAN (IND)</div>`)[0];
+                popup_5cab928f70a4f25ee96854d651b7477b.setContent(html_7899c1242cf2bc234db7db43efbe5ff3);
+            
+        
+
+        marker_5b555180ead5490127c45b175b46b18e.bindPopup(popup_5cab928f70a4f25ee96854d651b7477b)
+        ;
+
+        
+    
+    
+            var marker_5c3f4724ff8716217b0a33b024fef2fd = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_0ab2f4d121eced6d2e422f0c01fbdd99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cbfc6e4e9f9ff615b20a07a6621e619 = $(`<div id="html_7cbfc6e4e9f9ff615b20a07a6621e619" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD RM 220, TULSA, OK 74116-2001 GABRIELA MITCHELL-LABRIE (IND)</div>`)[0];
+                popup_0ab2f4d121eced6d2e422f0c01fbdd99.setContent(html_7cbfc6e4e9f9ff615b20a07a6621e619);
+            
+        
+
+        marker_5c3f4724ff8716217b0a33b024fef2fd.bindPopup(popup_0ab2f4d121eced6d2e422f0c01fbdd99)
+        ;
+
+        
+    
+    
+            var marker_6a37d8395ffec3a01f7ba2eafb9d4ad0 = L.marker(
+                [36.1694779, -95.8528327],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_852a859429d23d293672abdae9f54291 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc8dc0c19b305327eac82a7ffee2d83c = $(`<div id="html_cc8dc0c19b305327eac82a7ffee2d83c" style="width: 100.0%; height: 100.0%;">11208 E INDEPENDENCE ST, TULSA, OK 74116-5607 EDUARDA VEGA (REP)</div>`)[0];
+                popup_852a859429d23d293672abdae9f54291.setContent(html_cc8dc0c19b305327eac82a7ffee2d83c);
+            
+        
+
+        marker_6a37d8395ffec3a01f7ba2eafb9d4ad0.bindPopup(popup_852a859429d23d293672abdae9f54291)
+        ;
+
+        
+    
+    
+            var marker_5574e85304265dd43a19e7ac370c69d6 = L.marker(
+                [36.1736353, -95.8478522],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_5b7017b60b6668aa8eb5efe7e99b2daf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf5e2aa77aaa9b6890edae292155f242 = $(`<div id="html_cf5e2aa77aaa9b6890edae292155f242" style="width: 100.0%; height: 100.0%;">11416 E NEWTON PL, TULSA, OK 74116-2015 HAYDEN WEIBEL (DEM)</div>`)[0];
+                popup_5b7017b60b6668aa8eb5efe7e99b2daf.setContent(html_cf5e2aa77aaa9b6890edae292155f242);
+            
+        
+
+        marker_5574e85304265dd43a19e7ac370c69d6.bindPopup(popup_5b7017b60b6668aa8eb5efe7e99b2daf)
+        ;
+
+        
+    
+    
+            var marker_dd1e9c19283dcead9909d2912ab8eb85 = L.marker(
+                [36.1736353, -95.8478522],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_43c1b7160b571244d2fa53819302af02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9784dc5f61e87eb8d1cecd9b35015775 = $(`<div id="html_9784dc5f61e87eb8d1cecd9b35015775" style="width: 100.0%; height: 100.0%;">11416 E NEWTON PL, TULSA, OK 74116-2015 PAYTON ABBOTT (DEM)</div>`)[0];
+                popup_43c1b7160b571244d2fa53819302af02.setContent(html_9784dc5f61e87eb8d1cecd9b35015775);
+            
+        
+
+        marker_dd1e9c19283dcead9909d2912ab8eb85.bindPopup(popup_43c1b7160b571244d2fa53819302af02)
+        ;
+
+        
+    
+    
+            var marker_7551f84d0a1645c4ce17bb3599eb0091 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_b4634551613572b006b2dac216b3c29b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b229b92da86d2bb0f813c2f73ae461cd = $(`<div id="html_b229b92da86d2bb0f813c2f73ae461cd" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 PAUL MCELLIGOTT (REP)</div>`)[0];
+                popup_b4634551613572b006b2dac216b3c29b.setContent(html_b229b92da86d2bb0f813c2f73ae461cd);
+            
+        
+
+        marker_7551f84d0a1645c4ce17bb3599eb0091.bindPopup(popup_b4634551613572b006b2dac216b3c29b)
+        ;
+
+        
+    
+    
+            var marker_24a483181c92190e8f5c3ef8baf25209 = L.marker(
+                [36.1736353, -95.8478522],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_6dfd8636688f2dea5f2a380c5662b49f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_141764e3fd76ace3149673cb0eee5041 = $(`<div id="html_141764e3fd76ace3149673cb0eee5041" style="width: 100.0%; height: 100.0%;">11416 E NEWTON PL, TULSA, OK 74116 ELIZABETH COSSAIRT (DEM)</div>`)[0];
+                popup_6dfd8636688f2dea5f2a380c5662b49f.setContent(html_141764e3fd76ace3149673cb0eee5041);
+            
+        
+
+        marker_24a483181c92190e8f5c3ef8baf25209.bindPopup(popup_6dfd8636688f2dea5f2a380c5662b49f)
+        ;
+
+        
+    
+    
+            var marker_f56615656edef8b3ce9d98816b264a28 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_079816da7bc7a8bdb782be927327c41f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72aaede1a7689c672b8c97c5744c6f8f = $(`<div id="html_72aaede1a7689c672b8c97c5744c6f8f" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 MICHAEL FRENIERE (IND)</div>`)[0];
+                popup_079816da7bc7a8bdb782be927327c41f.setContent(html_72aaede1a7689c672b8c97c5744c6f8f);
+            
+        
+
+        marker_f56615656edef8b3ce9d98816b264a28.bindPopup(popup_079816da7bc7a8bdb782be927327c41f)
+        ;
+
+        
+    
+    
+            var marker_35a43ce87370b26f518a151d3e152728 = L.marker(
+                [36.1670636, -95.8532516],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_774b921f95f6481230deb639e2bb301e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1165623ef72e5d8ab9b97a21cc9e2d48 = $(`<div id="html_1165623ef72e5d8ab9b97a21cc9e2d48" style="width: 100.0%; height: 100.0%;">1010 N GARNETT RD, TULSA, OK 74116-2001 MICHAEL WILLIAMS (REP)</div>`)[0];
+                popup_774b921f95f6481230deb639e2bb301e.setContent(html_1165623ef72e5d8ab9b97a21cc9e2d48);
+            
+        
+
+        marker_35a43ce87370b26f518a151d3e152728.bindPopup(popup_774b921f95f6481230deb639e2bb301e)
+        ;
+
+        
+    
+    
+            var marker_991c8a127d57c70059909c0d94909cbb = L.marker(
+                [36.1741232, -95.8492793],
+                {}
+            ).addTo(map_0985f9f31aa852ad42e4c7d91227097a);
+        
+    
+        var popup_b8b0c8819a1cdcba2ed7519311663ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22ffcaa8056d02b3d3a3680b4c746aac = $(`<div id="html_22ffcaa8056d02b3d3a3680b4c746aac" style="width: 100.0%; height: 100.0%;">11357 E NEWTON PL, TULSA, OK 74116-2014 ERIN WHEELER (IND)</div>`)[0];
+                popup_b8b0c8819a1cdcba2ed7519311663ea9.setContent(html_22ffcaa8056d02b3d3a3680b4c746aac);
+            
+        
+
+        marker_991c8a127d57c70059909c0d94909cbb.bindPopup(popup_b8b0c8819a1cdcba2ed7519311663ea9)
+        ;
+
+        
+    
+</script>
+</html>

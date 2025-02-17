@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82084a9623ea1e3f2573eaeecf14ad9e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_82084a9623ea1e3f2573eaeecf14ad9e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_82084a9623ea1e3f2573eaeecf14ad9e = L.map(
+                "map_82084a9623ea1e3f2573eaeecf14ad9e",
+                {
+                    center: [36.264089653571425, -95.97837485535715],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bec6c6ebde4d26966abd4676e429d79 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0bec6c6ebde4d26966abd4676e429d79.addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+            var marker_50d04394eb3f3581c45b54964f21e573 = L.marker(
+                [36.266286, -95.9819151],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_bb0d596cf411b116257fc2e6eda7769c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e09115b397bc217acf49f9923c31f6a = $(`<div id="html_7e09115b397bc217acf49f9923c31f6a" style="width: 100.0%; height: 100.0%;">716 E 77 N PL, SPERRY, OK 74073-3948 VELMA CADE (DEM)</div>`)[0];
+                popup_bb0d596cf411b116257fc2e6eda7769c.setContent(html_7e09115b397bc217acf49f9923c31f6a);
+            
+        
+
+        marker_50d04394eb3f3581c45b54964f21e573.bindPopup(popup_bb0d596cf411b116257fc2e6eda7769c)
+        ;
+
+        
+    
+    
+            var marker_e157749d0618b9b593a5876734a22799 = L.marker(
+                [36.2670298, -95.9788583],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e2623fcd5438362c74dc1dab617cee2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcbfadc455c89350012447a86e20204e = $(`<div id="html_bcbfadc455c89350012447a86e20204e" style="width: 100.0%; height: 100.0%;">945 E 77 N PL, SPERRY, OK 74073-3949 NORMAN HAWK (DEM)</div>`)[0];
+                popup_e2623fcd5438362c74dc1dab617cee2d.setContent(html_bcbfadc455c89350012447a86e20204e);
+            
+        
+
+        marker_e157749d0618b9b593a5876734a22799.bindPopup(popup_e2623fcd5438362c74dc1dab617cee2d)
+        ;
+
+        
+    
+    
+            var marker_0dd1c8064f1a225e5ec0f1513691324a = L.marker(
+                [36.2626965, -95.9746829],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_41e708e166e0f58a2cfa6908810c0cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a0d76a35b9bcb1ab2e703c2c1c7c378 = $(`<div id="html_8a0d76a35b9bcb1ab2e703c2c1c7c378" style="width: 100.0%; height: 100.0%;">7509 N OWASSO PL, TULSA, OK 74126-1205 CONSTANCE HENDRICKS (DEM)</div>`)[0];
+                popup_41e708e166e0f58a2cfa6908810c0cc8.setContent(html_8a0d76a35b9bcb1ab2e703c2c1c7c378);
+            
+        
+
+        marker_0dd1c8064f1a225e5ec0f1513691324a.bindPopup(popup_41e708e166e0f58a2cfa6908810c0cc8)
+        ;
+
+        
+    
+    
+            var marker_95c7144b92c704bc2a03f0d8996dcd1f = L.marker(
+                [36.2638262, -95.9746637],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_cb34da23f01e4da8c2851ba3270f6ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67a6f63c26b885547a859030b033c9e6 = $(`<div id="html_67a6f63c26b885547a859030b033c9e6" style="width: 100.0%; height: 100.0%;">7541 N OWASSO PL, TULSA, OK 74126-1205 HARRY LEMASTER (REP)</div>`)[0];
+                popup_cb34da23f01e4da8c2851ba3270f6ddb.setContent(html_67a6f63c26b885547a859030b033c9e6);
+            
+        
+
+        marker_95c7144b92c704bc2a03f0d8996dcd1f.bindPopup(popup_cb34da23f01e4da8c2851ba3270f6ddb)
+        ;
+
+        
+    
+    
+            var marker_a6716e4ec96e7f56bfd7a6d105a15bd4 = L.marker(
+                [36.2638262, -95.9746637],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_9cf5e73d2434b1bea00967526b904710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98d3aa48a0485793b081d8cdfdfadb0f = $(`<div id="html_98d3aa48a0485793b081d8cdfdfadb0f" style="width: 100.0%; height: 100.0%;">7541 N OWASSO PL, TULSA, OK 74126-1205 NANCY LEMASTER (REP)</div>`)[0];
+                popup_9cf5e73d2434b1bea00967526b904710.setContent(html_98d3aa48a0485793b081d8cdfdfadb0f);
+            
+        
+
+        marker_a6716e4ec96e7f56bfd7a6d105a15bd4.bindPopup(popup_9cf5e73d2434b1bea00967526b904710)
+        ;
+
+        
+    
+    
+            var marker_f8e0277ca063f1780950e916298899ea = L.marker(
+                [36.2641492, -95.983446],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_739c536dcd551180ecfd89a796a3d24d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3c33610b91780322a85683c55472226 = $(`<div id="html_c3c33610b91780322a85683c55472226" style="width: 100.0%; height: 100.0%;">615 E 76 N ST, SPERRY, OK 74073 ROBERT MADDY (DEM)</div>`)[0];
+                popup_739c536dcd551180ecfd89a796a3d24d.setContent(html_c3c33610b91780322a85683c55472226);
+            
+        
+
+        marker_f8e0277ca063f1780950e916298899ea.bindPopup(popup_739c536dcd551180ecfd89a796a3d24d)
+        ;
+
+        
+    
+    
+            var marker_b5730467c6fc8e8d432589e7e6c2a775 = L.marker(
+                [36.2690033, -95.9821828],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_8cf9f585a994d8a74efeea12229de6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_175796168dbf76cd46e080d71ae83b61 = $(`<div id="html_175796168dbf76cd46e080d71ae83b61" style="width: 100.0%; height: 100.0%;">7919 N HARTFORD AVE, SPERRY, OK 74073-3945 DOUGLAS MUSE (REP)</div>`)[0];
+                popup_8cf9f585a994d8a74efeea12229de6d4.setContent(html_175796168dbf76cd46e080d71ae83b61);
+            
+        
+
+        marker_b5730467c6fc8e8d432589e7e6c2a775.bindPopup(popup_8cf9f585a994d8a74efeea12229de6d4)
+        ;
+
+        
+    
+    
+            var marker_90e08aaceba6d2a664f1031dc5b39ead = L.marker(
+                [36.2690033, -95.9821828],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_101d53a79070d72cd0dd4e03fe12a5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_630c2cef3ca766b0351768031aa68a59 = $(`<div id="html_630c2cef3ca766b0351768031aa68a59" style="width: 100.0%; height: 100.0%;">7919 N HARTFORD AVE, SPERRY, OK 74073-3945 SHELLEY MUSE (IND)</div>`)[0];
+                popup_101d53a79070d72cd0dd4e03fe12a5f9.setContent(html_630c2cef3ca766b0351768031aa68a59);
+            
+        
+
+        marker_90e08aaceba6d2a664f1031dc5b39ead.bindPopup(popup_101d53a79070d72cd0dd4e03fe12a5f9)
+        ;
+
+        
+    
+    
+            var marker_604307bfc928d0cb6eeb97f390faf1d1 = L.marker(
+                [36.2595636, -95.9846416],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e99e74d530f36520ffe849eee5621bd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca0439d622c8e13b5385d9d063ab6468 = $(`<div id="html_ca0439d622c8e13b5385d9d063ab6468" style="width: 100.0%; height: 100.0%;">608 E 73 N ST, TULSA, OK 74126-1248 CLARENCE OSBORN (DEM)</div>`)[0];
+                popup_e99e74d530f36520ffe849eee5621bd4.setContent(html_ca0439d622c8e13b5385d9d063ab6468);
+            
+        
+
+        marker_604307bfc928d0cb6eeb97f390faf1d1.bindPopup(popup_e99e74d530f36520ffe849eee5621bd4)
+        ;
+
+        
+    
+    
+            var marker_c98bee5e28c37240ebaaa519649d1697 = L.marker(
+                [36.2595636, -95.9846416],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_f553516de51010097b02bc22168e4cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf2c8bc4bc061edf92bd67ac88a56a50 = $(`<div id="html_cf2c8bc4bc061edf92bd67ac88a56a50" style="width: 100.0%; height: 100.0%;">608 E 73 N ST, TULSA, OK 74126-1248 SHARON OSBORN (DEM)</div>`)[0];
+                popup_f553516de51010097b02bc22168e4cec.setContent(html_cf2c8bc4bc061edf92bd67ac88a56a50);
+            
+        
+
+        marker_c98bee5e28c37240ebaaa519649d1697.bindPopup(popup_f553516de51010097b02bc22168e4cec)
+        ;
+
+        
+    
+    
+            var marker_4106be241005f93fc57c61ea7a2fd554 = L.marker(
+                [36.2642948, -95.9784218],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_af004e37f0cf14db24656b8ee312d09b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_862faa3fce040c9cc41314530f31483b = $(`<div id="html_862faa3fce040c9cc41314530f31483b" style="width: 100.0%; height: 100.0%;">7602 N MADISON AVE, SPERRY, OK 74073-3924 LONNA SPENCER (DEM)</div>`)[0];
+                popup_af004e37f0cf14db24656b8ee312d09b.setContent(html_862faa3fce040c9cc41314530f31483b);
+            
+        
+
+        marker_4106be241005f93fc57c61ea7a2fd554.bindPopup(popup_af004e37f0cf14db24656b8ee312d09b)
+        ;
+
+        
+    
+    
+            var marker_61cf7a23071f83370910a0ca21c9ba18 = L.marker(
+                [36.2600664, -95.9830305],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_761bb40ad46c8913095e7979a1920144 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cfed2c83b262405319f88e988e33d69 = $(`<div id="html_9cfed2c83b262405319f88e988e33d69" style="width: 100.0%; height: 100.0%;">740 E 73 N ST, TULSA, OK 74126-1246 CHRISTINE ROTHHAMMER (REP)</div>`)[0];
+                popup_761bb40ad46c8913095e7979a1920144.setContent(html_9cfed2c83b262405319f88e988e33d69);
+            
+        
+
+        marker_61cf7a23071f83370910a0ca21c9ba18.bindPopup(popup_761bb40ad46c8913095e7979a1920144)
+        ;
+
+        
+    
+    
+            var marker_43711c80d76ccc6f3c40726c0d564a78 = L.marker(
+                [36.2633707, -95.974662],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_0e08dbe7498a9613eaa214724472bb00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3441e5cd6ee3e1c6c90657c17221c945 = $(`<div id="html_3441e5cd6ee3e1c6c90657c17221c945" style="width: 100.0%; height: 100.0%;">7529 N OWASSO PL, TULSA, OK 74126-1205 CRYSTAL STEWARD (DEM)</div>`)[0];
+                popup_0e08dbe7498a9613eaa214724472bb00.setContent(html_3441e5cd6ee3e1c6c90657c17221c945);
+            
+        
+
+        marker_43711c80d76ccc6f3c40726c0d564a78.bindPopup(popup_0e08dbe7498a9613eaa214724472bb00)
+        ;
+
+        
+    
+    
+            var marker_c6bbdaed9dc55a5fb80ec411a8cf5791 = L.marker(
+                [36.2637958, -95.9751408],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_5b5206d00f70e4c63b8a3ae026e2e617 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_787f9b4863fce1d542da2d2fa12a429e = $(`<div id="html_787f9b4863fce1d542da2d2fa12a429e" style="width: 100.0%; height: 100.0%;">7542 N OWASSO PL, TULSA, OK 74126-1206 NATALIE PRITCHETT (DEM)</div>`)[0];
+                popup_5b5206d00f70e4c63b8a3ae026e2e617.setContent(html_787f9b4863fce1d542da2d2fa12a429e);
+            
+        
+
+        marker_c6bbdaed9dc55a5fb80ec411a8cf5791.bindPopup(popup_5b5206d00f70e4c63b8a3ae026e2e617)
+        ;
+
+        
+    
+    
+            var marker_aded6228f953e3684a866b86e836a575 = L.marker(
+                [36.2636367, -95.9746618],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_dfe5c8a1372fbe75e07882ecc583432b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05705a9a0df2df13e8770668191c60c = $(`<div id="html_d05705a9a0df2df13e8770668191c60c" style="width: 100.0%; height: 100.0%;">7535 N OWASSO PL, TULSA, OK 74126-1205 ESTELLIN EDMONDSON (REP)</div>`)[0];
+                popup_dfe5c8a1372fbe75e07882ecc583432b.setContent(html_d05705a9a0df2df13e8770668191c60c);
+            
+        
+
+        marker_aded6228f953e3684a866b86e836a575.bindPopup(popup_dfe5c8a1372fbe75e07882ecc583432b)
+        ;
+
+        
+    
+    
+            var marker_df3a97f8309887bd5ad636b08c6e091a = L.marker(
+                [36.2636367, -95.9746618],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_723468ce194346c6846cef1597dda9ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_392836f919cc2f7eedf585e60bea0e67 = $(`<div id="html_392836f919cc2f7eedf585e60bea0e67" style="width: 100.0%; height: 100.0%;">7535 N OWASSO PL, TULSA, OK 74126-1205 BILLY EDMONDSON (REP)</div>`)[0];
+                popup_723468ce194346c6846cef1597dda9ae.setContent(html_392836f919cc2f7eedf585e60bea0e67);
+            
+        
+
+        marker_df3a97f8309887bd5ad636b08c6e091a.bindPopup(popup_723468ce194346c6846cef1597dda9ae)
+        ;
+
+        
+    
+    
+            var marker_80facc4f3d44d37e4ae93f2918b9296a = L.marker(
+                [36.2695922, -95.9809094],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_58583b4ab0af3ba188e22b83d5acb99a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3935abfb862098e88ca0f572928896 = $(`<div id="html_2f3935abfb862098e88ca0f572928896" style="width: 100.0%; height: 100.0%;">7797 N HARTFORD AVE, SPERRY, OK 74073-3945 BILL KEETON (REP)</div>`)[0];
+                popup_58583b4ab0af3ba188e22b83d5acb99a.setContent(html_2f3935abfb862098e88ca0f572928896);
+            
+        
+
+        marker_80facc4f3d44d37e4ae93f2918b9296a.bindPopup(popup_58583b4ab0af3ba188e22b83d5acb99a)
+        ;
+
+        
+    
+    
+            var marker_1fe5c98b2b4c7ab8288c274ec7b29d16 = L.marker(
+                [36.2631416, -95.9746618],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_40424dfccbd4b0e6236f792a87a74220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c9835c9ae103354032dc941b7169125 = $(`<div id="html_3c9835c9ae103354032dc941b7169125" style="width: 100.0%; height: 100.0%;">7523 N OWASSO PL, TULSA, OK 74126-1205 KYLE RAKE (REP)</div>`)[0];
+                popup_40424dfccbd4b0e6236f792a87a74220.setContent(html_3c9835c9ae103354032dc941b7169125);
+            
+        
+
+        marker_1fe5c98b2b4c7ab8288c274ec7b29d16.bindPopup(popup_40424dfccbd4b0e6236f792a87a74220)
+        ;
+
+        
+    
+    
+            var marker_1db2334ac7493552254261c2cf28a9f9 = L.marker(
+                [36.2609211, -95.9828239],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_d0fa6d2c86cfbfe119ef552453343f15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e0d4bef3fb196b950ece5d5b2c2dff8 = $(`<div id="html_6e0d4bef3fb196b950ece5d5b2c2dff8" style="width: 100.0%; height: 100.0%;">629 E 73 N ST, TULSA, OK 74126-1247 DONALD LEWIS (LIB)</div>`)[0];
+                popup_d0fa6d2c86cfbfe119ef552453343f15.setContent(html_6e0d4bef3fb196b950ece5d5b2c2dff8);
+            
+        
+
+        marker_1db2334ac7493552254261c2cf28a9f9.bindPopup(popup_d0fa6d2c86cfbfe119ef552453343f15)
+        ;
+
+        
+    
+    
+            var marker_e635c91eb2a1a5d9aac9cea57cfef60d = L.marker(
+                [36.2628872, -95.9751486],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_fcf4556089f688abd3dfc458a4d02d05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f90c0e693ce0771aebe0cd2141f7fde8 = $(`<div id="html_f90c0e693ce0771aebe0cd2141f7fde8" style="width: 100.0%; height: 100.0%;">7518 N OWASSO PL, TULSA, OK 74126-1206 CHARLES NALL (DEM)</div>`)[0];
+                popup_fcf4556089f688abd3dfc458a4d02d05.setContent(html_f90c0e693ce0771aebe0cd2141f7fde8);
+            
+        
+
+        marker_e635c91eb2a1a5d9aac9cea57cfef60d.bindPopup(popup_fcf4556089f688abd3dfc458a4d02d05)
+        ;
+
+        
+    
+    
+            var marker_7e6356f80162d9974a87740e17ccb201 = L.marker(
+                [36.2637064, -95.9756473],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e49c04d696759314982fa68dd3ec086e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_632dc342229c63617785b17a4be9e091 = $(`<div id="html_632dc342229c63617785b17a4be9e091" style="width: 100.0%; height: 100.0%;">1104 E 76 N ST, SPERRY, OK 74073-3906 SHERRY BROWN DE BANOS (REP)</div>`)[0];
+                popup_e49c04d696759314982fa68dd3ec086e.setContent(html_632dc342229c63617785b17a4be9e091);
+            
+        
+
+        marker_7e6356f80162d9974a87740e17ccb201.bindPopup(popup_e49c04d696759314982fa68dd3ec086e)
+        ;
+
+        
+    
+    
+            var marker_2f3a2511668903d372f127cb54c28ceb = L.marker(
+                [36.2646331, -95.9758115],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_3542833058e1742969b008485fa70fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d08652a739bc8ee9114889288518960 = $(`<div id="html_4d08652a739bc8ee9114889288518960" style="width: 100.0%; height: 100.0%;">1101 E 76 N ST, SPERRY, OK 74073-3906 DERRICK LEE (REP)</div>`)[0];
+                popup_3542833058e1742969b008485fa70fd2.setContent(html_4d08652a739bc8ee9114889288518960);
+            
+        
+
+        marker_2f3a2511668903d372f127cb54c28ceb.bindPopup(popup_3542833058e1742969b008485fa70fd2)
+        ;
+
+        
+    
+    
+            var marker_d4918454bea504bd86644861a49346dc = L.marker(
+                [36.2646331, -95.9758115],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_aea5aae31f63d203332935c6de510a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43464eb46a4bb24b00b8a79ee8898cf4 = $(`<div id="html_43464eb46a4bb24b00b8a79ee8898cf4" style="width: 100.0%; height: 100.0%;">1101 E 76 N ST, SPERRY, OK 74073-3906 JANET LEE (REP)</div>`)[0];
+                popup_aea5aae31f63d203332935c6de510a3d.setContent(html_43464eb46a4bb24b00b8a79ee8898cf4);
+            
+        
+
+        marker_d4918454bea504bd86644861a49346dc.bindPopup(popup_aea5aae31f63d203332935c6de510a3d)
+        ;
+
+        
+    
+    
+            var marker_4778e38774f93565a69f66486cfccc47 = L.marker(
+                [36.2609738, -95.9809237],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_02888c6a5bb2916b4dc8b7ca4ced8161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9bc34309bb23fa3fabdc2f88164731e = $(`<div id="html_e9bc34309bb23fa3fabdc2f88164731e" style="width: 100.0%; height: 100.0%;">7305 N IROQUOIS AVE, TULSA, OK 74130 ROY MORRIS (REP)</div>`)[0];
+                popup_02888c6a5bb2916b4dc8b7ca4ced8161.setContent(html_e9bc34309bb23fa3fabdc2f88164731e);
+            
+        
+
+        marker_4778e38774f93565a69f66486cfccc47.bindPopup(popup_02888c6a5bb2916b4dc8b7ca4ced8161)
+        ;
+
+        
+    
+    
+            var marker_d4b50bbdbf41d756a90b62ca3873a2e4 = L.marker(
+                [36.262658, -95.980887],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_ec22afd306c047885e58847a24a909a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a4d1c53221b93a987c6ab9d12b990e1 = $(`<div id="html_3a4d1c53221b93a987c6ab9d12b990e1" style="width: 100.0%; height: 100.0%;">7403 N IROQUOIS AVE, TULSA, OK 74130 LATRISHA PRIDEAUX (REP)</div>`)[0];
+                popup_ec22afd306c047885e58847a24a909a9.setContent(html_3a4d1c53221b93a987c6ab9d12b990e1);
+            
+        
+
+        marker_d4b50bbdbf41d756a90b62ca3873a2e4.bindPopup(popup_ec22afd306c047885e58847a24a909a9)
+        ;
+
+        
+    
+    
+            var marker_680e03db64d10ad19b9c3432b4ea79cc = L.marker(
+                [36.2661637, -95.9797074],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_2c97385369b14898802584d5fb176513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8df65379e64fc6e1d31739676e463dd4 = $(`<div id="html_8df65379e64fc6e1d31739676e463dd4" style="width: 100.0%; height: 100.0%;">774 E 77 N PL, SPERRY, OK 74073-3948 BRYAN STARKEY (IND)</div>`)[0];
+                popup_2c97385369b14898802584d5fb176513.setContent(html_8df65379e64fc6e1d31739676e463dd4);
+            
+        
+
+        marker_680e03db64d10ad19b9c3432b4ea79cc.bindPopup(popup_2c97385369b14898802584d5fb176513)
+        ;
+
+        
+    
+    
+            var marker_da4a39703afc6b3cfeb9b2551483a9f0 = L.marker(
+                [36.2629152, -95.9740141],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_a51b3236a84c76d809188cb6d89314d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_460ccd01f59386dd63d3bf517c1181c8 = $(`<div id="html_460ccd01f59386dd63d3bf517c1181c8" style="width: 100.0%; height: 100.0%;">7510 N PEORIA AVE, TULSA, OK 74126-1263 ARMANDO IBARRA (DEM)</div>`)[0];
+                popup_a51b3236a84c76d809188cb6d89314d0.setContent(html_460ccd01f59386dd63d3bf517c1181c8);
+            
+        
+
+        marker_da4a39703afc6b3cfeb9b2551483a9f0.bindPopup(popup_a51b3236a84c76d809188cb6d89314d0)
+        ;
+
+        
+    
+    
+            var marker_434635c3e1f0985ea1c9eb5420923d18 = L.marker(
+                [36.2642948, -95.9784218],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_370dc6c04ea80b81e2d980891a0b7821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17d8ec45033b2aec6f90e27d81fa471a = $(`<div id="html_17d8ec45033b2aec6f90e27d81fa471a" style="width: 100.0%; height: 100.0%;">7602 N MADISON AVE, SPERRY, OK 74073-3924 MARSHA CARMACK (DEM)</div>`)[0];
+                popup_370dc6c04ea80b81e2d980891a0b7821.setContent(html_17d8ec45033b2aec6f90e27d81fa471a);
+            
+        
+
+        marker_434635c3e1f0985ea1c9eb5420923d18.bindPopup(popup_370dc6c04ea80b81e2d980891a0b7821)
+        ;
+
+        
+    
+    
+            var marker_90e866787c2b0f24e471b1cd4cb4095d = L.marker(
+                [36.2637958, -95.9751408],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_12b7033d55bf7aa7bf64a3890716b722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8726af11f2ac97c721130a594777273a = $(`<div id="html_8726af11f2ac97c721130a594777273a" style="width: 100.0%; height: 100.0%;">7542 N OWASSO PL, TULSA, OK 74126-1206 KIMBERLY NELSON (DEM)</div>`)[0];
+                popup_12b7033d55bf7aa7bf64a3890716b722.setContent(html_8726af11f2ac97c721130a594777273a);
+            
+        
+
+        marker_90e866787c2b0f24e471b1cd4cb4095d.bindPopup(popup_12b7033d55bf7aa7bf64a3890716b722)
+        ;
+
+        
+    
+    
+            var marker_5699e081396d895259a999c07f691889 = L.marker(
+                [36.2628872, -95.9751486],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_2bf6ed512d440fc308f69145574095cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f65ca9da11d9896f9fb0e8e1e03226cd = $(`<div id="html_f65ca9da11d9896f9fb0e8e1e03226cd" style="width: 100.0%; height: 100.0%;">7518 N OWASSO PL, TULSA, OK 74126-1206 MARIA NALL (DEM)</div>`)[0];
+                popup_2bf6ed512d440fc308f69145574095cd.setContent(html_f65ca9da11d9896f9fb0e8e1e03226cd);
+            
+        
+
+        marker_5699e081396d895259a999c07f691889.bindPopup(popup_2bf6ed512d440fc308f69145574095cd)
+        ;
+
+        
+    
+    
+            var marker_aa83ffe5cd902a11b4ab0bbc7a17a149 = L.marker(
+                [36.266286, -95.9819151],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_6405e9b57ede1291efcb7143db389854 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f29da825649d9046afc48b482b0bf318 = $(`<div id="html_f29da825649d9046afc48b482b0bf318" style="width: 100.0%; height: 100.0%;">716 E 77 N PL, SPERRY, OK 74073-3948 NORMA RICE (DEM)</div>`)[0];
+                popup_6405e9b57ede1291efcb7143db389854.setContent(html_f29da825649d9046afc48b482b0bf318);
+            
+        
+
+        marker_aa83ffe5cd902a11b4ab0bbc7a17a149.bindPopup(popup_6405e9b57ede1291efcb7143db389854)
+        ;
+
+        
+    
+    
+            var marker_ba392d7971be0b77299b2ffacf27e4be = L.marker(
+                [36.2637415, -95.9764964],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_ae138ef3fb18d6a1821e4dd08a99d01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9019a557d59ce9cdd573be7d919bd73c = $(`<div id="html_9019a557d59ce9cdd573be7d919bd73c" style="width: 100.0%; height: 100.0%;">1100 E 76 N ST, SPERRY, OK 74073 CRYSTAL SANTIAGO (DEM)</div>`)[0];
+                popup_ae138ef3fb18d6a1821e4dd08a99d01a.setContent(html_9019a557d59ce9cdd573be7d919bd73c);
+            
+        
+
+        marker_ba392d7971be0b77299b2ffacf27e4be.bindPopup(popup_ae138ef3fb18d6a1821e4dd08a99d01a)
+        ;
+
+        
+    
+    
+            var marker_cea71eeefc430f19ca4cf89af9b24786 = L.marker(
+                [36.2631416, -95.9746618],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_751e521c1926d012457d5a2eab082f19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f586e742b64e0e83b1b56ed28d59fc = $(`<div id="html_74f586e742b64e0e83b1b56ed28d59fc" style="width: 100.0%; height: 100.0%;">7523 N OWASSO PL, TULSA, OK 74126-1205 SAMANTHA KOSHINSKI (REP)</div>`)[0];
+                popup_751e521c1926d012457d5a2eab082f19.setContent(html_74f586e742b64e0e83b1b56ed28d59fc);
+            
+        
+
+        marker_cea71eeefc430f19ca4cf89af9b24786.bindPopup(popup_751e521c1926d012457d5a2eab082f19)
+        ;
+
+        
+    
+    
+            var marker_2393f1e9f2ade652ad9c241d1c8b1905 = L.marker(
+                [36.2646696, -95.9805381],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_cf91ecdfd91e7f1dcee22c99900f7b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7309dfd9e82ca41792f3abd563db7e32 = $(`<div id="html_7309dfd9e82ca41792f3abd563db7e32" style="width: 100.0%; height: 100.0%;">801 E 76 N ST, SPERRY, OK 74073-3903 JERRELL MCARTER (DEM)</div>`)[0];
+                popup_cf91ecdfd91e7f1dcee22c99900f7b40.setContent(html_7309dfd9e82ca41792f3abd563db7e32);
+            
+        
+
+        marker_2393f1e9f2ade652ad9c241d1c8b1905.bindPopup(popup_cf91ecdfd91e7f1dcee22c99900f7b40)
+        ;
+
+        
+    
+    
+            var marker_ae48783bb1efea278f79211144d53dd5 = L.marker(
+                [36.2633518, -95.975135],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_abae3793c4f66de66913cdd409e1649c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e80228762fcf75c9167f10711bce36c = $(`<div id="html_7e80228762fcf75c9167f10711bce36c" style="width: 100.0%; height: 100.0%;">7530 N OWASSO PL, TULSA, OK 74126-1206 LEE VUE (IND)</div>`)[0];
+                popup_abae3793c4f66de66913cdd409e1649c.setContent(html_7e80228762fcf75c9167f10711bce36c);
+            
+        
+
+        marker_ae48783bb1efea278f79211144d53dd5.bindPopup(popup_abae3793c4f66de66913cdd409e1649c)
+        ;
+
+        
+    
+    
+            var marker_65b487c407e33b98fa8d8dd1847de277 = L.marker(
+                [36.2671273, -95.9796535],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_2b6429d8524896738a9fd3d43db0f05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be96c44231feedc6318ce94c5c6e3a7 = $(`<div id="html_8be96c44231feedc6318ce94c5c6e3a7" style="width: 100.0%; height: 100.0%;">763 E 77 N PL, SPERRY, OK 74073-3950 BETTY CLARKE-SAFFELL (DEM)</div>`)[0];
+                popup_2b6429d8524896738a9fd3d43db0f05c.setContent(html_8be96c44231feedc6318ce94c5c6e3a7);
+            
+        
+
+        marker_65b487c407e33b98fa8d8dd1847de277.bindPopup(popup_2b6429d8524896738a9fd3d43db0f05c)
+        ;
+
+        
+    
+    
+            var marker_16c6755e0ec82561b147be0a4d5ea8f3 = L.marker(
+                [36.2636367, -95.9746618],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_662b23426f98678b23ef56430cdbd626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9df97493b5eebb0ac286a94cd03400d = $(`<div id="html_c9df97493b5eebb0ac286a94cd03400d" style="width: 100.0%; height: 100.0%;">7535 N OWASSO PL, TULSA, OK 74126-1205 VICKI JOHNSON (IND)</div>`)[0];
+                popup_662b23426f98678b23ef56430cdbd626.setContent(html_c9df97493b5eebb0ac286a94cd03400d);
+            
+        
+
+        marker_16c6755e0ec82561b147be0a4d5ea8f3.bindPopup(popup_662b23426f98678b23ef56430cdbd626)
+        ;
+
+        
+    
+    
+            var marker_b363cbc34b7d26e434ff92a70c3232b5 = L.marker(
+                [36.2633639, -95.9816954],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e78050568390553d233cb4c76db10daf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6c47f512b725819d684c31beb9aac12 = $(`<div id="html_c6c47f512b725819d684c31beb9aac12" style="width: 100.0%; height: 100.0%;">7512 N IROQUOIS AVE, TULSA, OK 74130 TINA PETERSEN (REP)</div>`)[0];
+                popup_e78050568390553d233cb4c76db10daf.setContent(html_c6c47f512b725819d684c31beb9aac12);
+            
+        
+
+        marker_b363cbc34b7d26e434ff92a70c3232b5.bindPopup(popup_e78050568390553d233cb4c76db10daf)
+        ;
+
+        
+    
+    
+            var marker_38aabbc4f167e5b3af67f978176cc3ab = L.marker(
+                [36.2661635, -95.9790089],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_c5908f40c8b84884e07b84b15154ec9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0da6e435d5e203c12363ab156e864d98 = $(`<div id="html_0da6e435d5e203c12363ab156e864d98" style="width: 100.0%; height: 100.0%;">7720 N MADISON AVE, SPERRY, OK 74073-3925 TONIA LAVTON (DEM)</div>`)[0];
+                popup_c5908f40c8b84884e07b84b15154ec9f.setContent(html_0da6e435d5e203c12363ab156e864d98);
+            
+        
+
+        marker_38aabbc4f167e5b3af67f978176cc3ab.bindPopup(popup_c5908f40c8b84884e07b84b15154ec9f)
+        ;
+
+        
+    
+    
+            var marker_aee29fd0eb6bc1c5b0aa5aba286cc445 = L.marker(
+                [36.2637064, -95.9756473],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_710d135a826f90fda2892e4abed9275f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a9d6c0737d2b6b65ce967de3c69c3e1 = $(`<div id="html_2a9d6c0737d2b6b65ce967de3c69c3e1" style="width: 100.0%; height: 100.0%;">1104 E 76 N ST, SPERRY, OK 74073-3906 MOISES BANOS BROWN (IND)</div>`)[0];
+                popup_710d135a826f90fda2892e4abed9275f.setContent(html_2a9d6c0737d2b6b65ce967de3c69c3e1);
+            
+        
+
+        marker_aee29fd0eb6bc1c5b0aa5aba286cc445.bindPopup(popup_710d135a826f90fda2892e4abed9275f)
+        ;
+
+        
+    
+    
+            var marker_f6615d772e453327f0bb83213ca437c7 = L.marker(
+                [36.2628872, -95.9751486],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_882a15f1eaac310539d7fc89b205c950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a000d133d42ce03ddc41287d775418bb = $(`<div id="html_a000d133d42ce03ddc41287d775418bb" style="width: 100.0%; height: 100.0%;">7518 N OWASSO PL, TULSA, OK 74126-1206 ROBERT NALL (DEM)</div>`)[0];
+                popup_882a15f1eaac310539d7fc89b205c950.setContent(html_a000d133d42ce03ddc41287d775418bb);
+            
+        
+
+        marker_f6615d772e453327f0bb83213ca437c7.bindPopup(popup_882a15f1eaac310539d7fc89b205c950)
+        ;
+
+        
+    
+    
+            var marker_b4d678cb739a836f2b34e058ff27f4b4 = L.marker(
+                [36.2654207, -95.9787447],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_5be88442055c60a2bf2cc96c974e8df1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecf5cd1d256e515f80d0e26f231724b3 = $(`<div id="html_ecf5cd1d256e515f80d0e26f231724b3" style="width: 100.0%; height: 100.0%;">7716 N MADISON AVE, SPERRY, OK 74073-3925 ANEIDA GONZALEZ MEDINA (DEM)</div>`)[0];
+                popup_5be88442055c60a2bf2cc96c974e8df1.setContent(html_ecf5cd1d256e515f80d0e26f231724b3);
+            
+        
+
+        marker_b4d678cb739a836f2b34e058ff27f4b4.bindPopup(popup_5be88442055c60a2bf2cc96c974e8df1)
+        ;
+
+        
+    
+    
+            var marker_457e410f083df8b65094c903424af597 = L.marker(
+                [36.2633639, -95.9816954],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e452edebc618dd0baf7b3e4c54bfa9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cda1cfe9ea6f6676b3ff0f8a1b58fcae = $(`<div id="html_cda1cfe9ea6f6676b3ff0f8a1b58fcae" style="width: 100.0%; height: 100.0%;">7512 N IROQUOIS AVE, TULSA, OK 74130 CLIFTON GADBURY (IND)</div>`)[0];
+                popup_e452edebc618dd0baf7b3e4c54bfa9c8.setContent(html_cda1cfe9ea6f6676b3ff0f8a1b58fcae);
+            
+        
+
+        marker_457e410f083df8b65094c903424af597.bindPopup(popup_e452edebc618dd0baf7b3e4c54bfa9c8)
+        ;
+
+        
+    
+    
+            var marker_89d48a4c3e90f555032f5110142dbf73 = L.marker(
+                [36.26262699999999, -95.9751335],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_6dbc052adbc3b1bb10cb2242c2e25b25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed5822db50127eaa79c56535d70debdc = $(`<div id="html_ed5822db50127eaa79c56535d70debdc" style="width: 100.0%; height: 100.0%;">7512 N OWASSO PL, TULSA, OK 74126-1206 SHANNON HALLMAN (REP)</div>`)[0];
+                popup_6dbc052adbc3b1bb10cb2242c2e25b25.setContent(html_ed5822db50127eaa79c56535d70debdc);
+            
+        
+
+        marker_89d48a4c3e90f555032f5110142dbf73.bindPopup(popup_6dbc052adbc3b1bb10cb2242c2e25b25)
+        ;
+
+        
+    
+    
+            var marker_f015aa9d780991de2ffc424913d663c3 = L.marker(
+                [36.2646331, -95.9758115],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_c5bbd50a97ad0e7de104ee15df5e821e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ee2137a6a0ee4c1925addfca08b6741 = $(`<div id="html_3ee2137a6a0ee4c1925addfca08b6741" style="width: 100.0%; height: 100.0%;">1101 E 76 N ST, SPERRY, OK 74073-3906 RACHEL LANG (REP)</div>`)[0];
+                popup_c5bbd50a97ad0e7de104ee15df5e821e.setContent(html_3ee2137a6a0ee4c1925addfca08b6741);
+            
+        
+
+        marker_f015aa9d780991de2ffc424913d663c3.bindPopup(popup_c5bbd50a97ad0e7de104ee15df5e821e)
+        ;
+
+        
+    
+    
+            var marker_ae6121e657b27d824a657bd7676c846b = L.marker(
+                [36.2609738, -95.9809237],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_deb361bdafa1c57e1d6c77cdeca5ffa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e72751bed0ee81aa7c3a93f8385512f = $(`<div id="html_3e72751bed0ee81aa7c3a93f8385512f" style="width: 100.0%; height: 100.0%;">7305 N IROQUOIS AVE, TULSA, OK 74130 RODNEY MORRIS (IND)</div>`)[0];
+                popup_deb361bdafa1c57e1d6c77cdeca5ffa0.setContent(html_3e72751bed0ee81aa7c3a93f8385512f);
+            
+        
+
+        marker_ae6121e657b27d824a657bd7676c846b.bindPopup(popup_deb361bdafa1c57e1d6c77cdeca5ffa0)
+        ;
+
+        
+    
+    
+            var marker_c2a66c7236b155509f1eb02817766417 = L.marker(
+                [36.2633518, -95.975135],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_bb786b1d0520989689296488a652235b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc16ef5b06ac0a4752d37ca83b8beab = $(`<div id="html_fbc16ef5b06ac0a4752d37ca83b8beab" style="width: 100.0%; height: 100.0%;">7530 N OWASSO PL, TULSA, OK 74126-1206 CHUE LOR (REP)</div>`)[0];
+                popup_bb786b1d0520989689296488a652235b.setContent(html_fbc16ef5b06ac0a4752d37ca83b8beab);
+            
+        
+
+        marker_c2a66c7236b155509f1eb02817766417.bindPopup(popup_bb786b1d0520989689296488a652235b)
+        ;
+
+        
+    
+    
+            var marker_49186ec8a68b3243b3c8140f000bed32 = L.marker(
+                [36.262454, -95.9833467],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_1d4b41409ff68a39a52997498e73b0ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e698c794bcd76f4e3884d016fdfa245b = $(`<div id="html_e698c794bcd76f4e3884d016fdfa245b" style="width: 100.0%; height: 100.0%;">720 E 76 N ST, SPERRY, OK 74073-3902 MICHAEL HARMON (REP)</div>`)[0];
+                popup_1d4b41409ff68a39a52997498e73b0ff.setContent(html_e698c794bcd76f4e3884d016fdfa245b);
+            
+        
+
+        marker_49186ec8a68b3243b3c8140f000bed32.bindPopup(popup_1d4b41409ff68a39a52997498e73b0ff)
+        ;
+
+        
+    
+    
+            var marker_faeb3f73cb80610a7d605b4c5739f1e5 = L.marker(
+                [36.2695922, -95.9809094],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_1787f6a410652a0793dfaa5780779d60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c79563cee79fa63a61cdd23fca411c = $(`<div id="html_31c79563cee79fa63a61cdd23fca411c" style="width: 100.0%; height: 100.0%;">7797 N HARTFORD AVE, SPERRY, OK 74073-3945 CHELSEA KEETON (REP)</div>`)[0];
+                popup_1787f6a410652a0793dfaa5780779d60.setContent(html_31c79563cee79fa63a61cdd23fca411c);
+            
+        
+
+        marker_faeb3f73cb80610a7d605b4c5739f1e5.bindPopup(popup_1787f6a410652a0793dfaa5780779d60)
+        ;
+
+        
+    
+    
+            var marker_5a4a7106667d345c917887244d3fd121 = L.marker(
+                [36.2654207, -95.9787447],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_6abaf30bfe6d27bb0618bfceeccb1ded = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4849fed16595facafc683bfab1c62af = $(`<div id="html_a4849fed16595facafc683bfab1c62af" style="width: 100.0%; height: 100.0%;">7716 N MADISON AVE, SPERRY, OK 74073-3925 JOSE GONZALEZ (REP)</div>`)[0];
+                popup_6abaf30bfe6d27bb0618bfceeccb1ded.setContent(html_a4849fed16595facafc683bfab1c62af);
+            
+        
+
+        marker_5a4a7106667d345c917887244d3fd121.bindPopup(popup_6abaf30bfe6d27bb0618bfceeccb1ded)
+        ;
+
+        
+    
+    
+            var marker_1944021838589915de9b27d1276f7797 = L.marker(
+                [36.262454, -95.9833467],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_e5200c7f06190cfe75f25452df3b4a9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7360c61f70081f873cfc191caf209cc7 = $(`<div id="html_7360c61f70081f873cfc191caf209cc7" style="width: 100.0%; height: 100.0%;">720 E 76 N ST, SPERRY, OK 74073 LYNNETTE STARKEY (REP)</div>`)[0];
+                popup_e5200c7f06190cfe75f25452df3b4a9c.setContent(html_7360c61f70081f873cfc191caf209cc7);
+            
+        
+
+        marker_1944021838589915de9b27d1276f7797.bindPopup(popup_e5200c7f06190cfe75f25452df3b4a9c)
+        ;
+
+        
+    
+    
+            var marker_ad8534d2efe828c59805a0fe4acac291 = L.marker(
+                [36.267288, -95.9814359],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_eb4a4b6aeb3b04c0a4cf9e8b95a82165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f78f95fda7e603f7ba51c0d890d8d45e = $(`<div id="html_f78f95fda7e603f7ba51c0d890d8d45e" style="width: 100.0%; height: 100.0%;">723 E 77 N PL, SPERRY, OK 74073 EMILY GOMEZ (IND)</div>`)[0];
+                popup_eb4a4b6aeb3b04c0a4cf9e8b95a82165.setContent(html_f78f95fda7e603f7ba51c0d890d8d45e);
+            
+        
+
+        marker_ad8534d2efe828c59805a0fe4acac291.bindPopup(popup_eb4a4b6aeb3b04c0a4cf9e8b95a82165)
+        ;
+
+        
+    
+    
+            var marker_511b435387805db23eb02a5b87ebbc69 = L.marker(
+                [36.2629152, -95.9740141],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_6ca608fec241bc5815229844c173c689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77b1bf2b90c5fa3eff007570cbb80538 = $(`<div id="html_77b1bf2b90c5fa3eff007570cbb80538" style="width: 100.0%; height: 100.0%;">7510 N PEORIA AVE, TULSA, OK 74126 ERMA IBARRA (REP)</div>`)[0];
+                popup_6ca608fec241bc5815229844c173c689.setContent(html_77b1bf2b90c5fa3eff007570cbb80538);
+            
+        
+
+        marker_511b435387805db23eb02a5b87ebbc69.bindPopup(popup_6ca608fec241bc5815229844c173c689)
+        ;
+
+        
+    
+    
+            var marker_6a790d6e6cc5c962a081441d6e544d7f = L.marker(
+                [36.2637064, -95.9756473],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_218bbb6af44b22b759e5f60e62c60fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df5392775e47f6e398df69b1a21d963c = $(`<div id="html_df5392775e47f6e398df69b1a21d963c" style="width: 100.0%; height: 100.0%;">1104 E 76 N ST, SPERRY, OK 74073 MOISES BANOS-DURAN (REP)</div>`)[0];
+                popup_218bbb6af44b22b759e5f60e62c60fe6.setContent(html_df5392775e47f6e398df69b1a21d963c);
+            
+        
+
+        marker_6a790d6e6cc5c962a081441d6e544d7f.bindPopup(popup_218bbb6af44b22b759e5f60e62c60fe6)
+        ;
+
+        
+    
+    
+            var marker_422ccd7bd1744d6aca7d5ad3d2c9299e = L.marker(
+                [36.2636286, -95.9823194],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_2f7fc919015420510531e12e3dd177da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c02bfbac0dac78e4647a9a657dfeb96e = $(`<div id="html_c02bfbac0dac78e4647a9a657dfeb96e" style="width: 100.0%; height: 100.0%;">730 E 76 N ST, SPERRY, OK 74073 JAMES DUROY (IND)</div>`)[0];
+                popup_2f7fc919015420510531e12e3dd177da.setContent(html_c02bfbac0dac78e4647a9a657dfeb96e);
+            
+        
+
+        marker_422ccd7bd1744d6aca7d5ad3d2c9299e.bindPopup(popup_2f7fc919015420510531e12e3dd177da)
+        ;
+
+        
+    
+    
+            var marker_cb89a5f8b9979bc4801cd1ca7fbfaf46 = L.marker(
+                [36.2661637, -95.9797074],
+                {}
+            ).addTo(map_82084a9623ea1e3f2573eaeecf14ad9e);
+        
+    
+        var popup_20cb4ff62ec64e111b1a2acecc76bbab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_014579f85d3e3697d0278b77af4247a8 = $(`<div id="html_014579f85d3e3697d0278b77af4247a8" style="width: 100.0%; height: 100.0%;">774 E 77 N PL, SPERRY, OK 74073 JUSTIN BROWN (REP)</div>`)[0];
+                popup_20cb4ff62ec64e111b1a2acecc76bbab.setContent(html_014579f85d3e3697d0278b77af4247a8);
+            
+        
+
+        marker_cb89a5f8b9979bc4801cd1ca7fbfaf46.bindPopup(popup_20cb4ff62ec64e111b1a2acecc76bbab)
+        ;
+
+        
+    
+</script>
+</html>
